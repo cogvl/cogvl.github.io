@@ -1,6 +1,6 @@
 # Jekyll Configuration for COGVL Workshop
-title: COGVL
-description: Cognitive Foundations for Multimodal Models - CVPR 2026 Workshop
+title: CogVL Workshop @ CVPR 2026
+description: CogVL - Cognitive Foundations for Multimodal Models - CVPR 2026 Workshop
 url: https://cogvl.github.io
 baseurl: ""
 
@@ -20,11 +20,6 @@ exclude:
   - content.md
   - blackswan-challenge.md
 
-# Collections
-collections:
-  organizers:
-    output: false
-
 # Site variables
 workshop:
   title: "COGVL: Cognitive Foundations for Multimodal Models"
@@ -32,53 +27,3 @@ workshop:
   date: "TBD"
   location: "TBD"
   twitter: "https://x.com/adityachinchure?s=21&t=ssvFEGg3BpqHlR454WTHCg"
-  
-organizers:
-  - name: "Aditya Chinchure"
-    email: "aditya10@cs.ubc.ca"
-    affiliation: "PhD Student, The University of British Columbia"
-    bio: "Aditya Chinchure is a second-year PhD student at the University of British Columbia, working across the Computer Vision and Natural Language Processing labs with Dr. Leonid Sigal and Dr. Vered Shwartz. He is the recipient of the Four-Year Fellowship (4YF) from UBC. Aditya has published his work at leading Computer Vision and NLP conferences like CVPR, ECCV and EMNLP. Aditya's area of focus is on using cognitive approaches to build and evaluate vision and language models, with topics spanning video understanding, commonsense reasoning and bias & fairness in generative models."
-    image: "aditya.jpg"
-    primary: true
-  - name: "Sahithya Ravi"
-    email: "sahiravi@cs.ubc.ca"
-    affiliation: "PhD Candidate, The University of British Columbia"
-    bio: "Sahithya Ravi is a PhD Candidate and Killam Doctoral Fellow at UBC. Her research focuses on the intersection of Computer Vision and Natural Language Processing, particularly on spatial and causal reasoning in vision–language models, Bayesian theory of mind, and grounded reasoning across text and image modalities. She has published at leading venues including CVPR, ACL, and EMNLP, and has contributed to research at Microsoft Research, Meta AI, and OpenML. She co-organized the Future of NLP Workshop at UBC and is passionate about bridging insights from cognitive science and machine learning to build more robust and interpretable AI systems."
-    image: "sahithya.JPG"
-    primary: true
-  - name: "Yossi Gandelsman"
-    email: "yossi@ttic.edu"
-    affiliation: "Research scientist, Reve; Incoming Assistant Professor, TTIC"
-    bio: "Yossi Gandelsman is a research scientist at Reve and an incoming assistant professor at TTIC. He earned his Ph.D. in Electrical Engineering and Computer Sciences from UC Berkeley and his M.Sc. in Computer Science from the Weizmann Institute of Science. He was previously part of the Perception Team at Google Research (now Google DeepMind). Yossi's research focuses on developing techniques to understand and improve deep learning models, with an emphasis on computer vision, natural language processing, and interpretability. He is a recipient of the Google Fellowship. He co-organized the mechanistic interpretability workshop @ CVPR'25 and the prompting in vision workshop in CVPR'24."
-    image: "yossi.png"
-  - name: "Shweta Mahajan"
-    email: "shwemaha@yorku.ca"
-    affiliation: "Senior Machine Learning Researcher, Qualcomm AI Research; Incoming Assistant Professor, York University; Faculty Affiliate, Vector Institute"
-    bio: "Shweta Mahajan is a Senior Machine Learning Researcher at Qualcomm AI Research and an incoming assistant professor at York University. She was a postdoctoral researcher and a Vector Postdoctoral Affiliate at University of British Columbia. She received her Ph.D. from Technische Universität Darmstadt. She obtained her M.Sc. from Saarland University where she was part of the Machine Learning Group and Max Planck Institute of Informatics. Her research areas include deep generative models, multimodal learning (vision and language) and representation learning. She co-organized the Visual Assistants in Real-World workshop at CVPR 2025."
-    image: "shweta.jpeg"
-  - name: "Gabriel Sarch"
-    email: "gsarch@andrew.cmu.edu"
-    affiliation: "Postdoctoral Research Fellow, Princeton"
-    bio: "Gabriel Sarch is a Postdoctoral Research Fellow in Princeton Language and Intelligence studying multimodal agents capable of complex visual reasoning and decision-making. Gabriel completed his Ph.D. at Carnegie Mellon University in the Machine Learning Department and Neuroscience Institute as an NSF Graduate Research Fellow, where he was advised by Drs. Katerina Fragkiadaki and Michael J. Tarr. His work has been recognized in leading venues including NeurIPS, CVPR, ECCV, ACL, and Nature Communications, and he has held research positions at Microsoft Research and Yutori AI."
-    image: "gabriel.jpg"
-  - name: "Ranjay Krishna"
-    email: "ranjay@cs.washington.edu"
-    affiliation: "Assistant Professor, UWashington; AI2"
-    bio: "Ranjay Krishna is an Assistant Professor at the Allen School of Computer Science & Engineering. He co-directs the RAIVN lab at University of Washington and directs the PRIOR team at Ai2. His research lies at the intersection of computer vision, natural language processing, robotics, and human computer interaction. This research has received best paper, outstanding paper, and orals at CVPR, ACL, CSCW, NeurIPS, UIST, and ECCV, and has been reported by Science, Forbes, the Wall Street Journal, and PBS NOVA."
-    image: "ranjay.jpeg"
-  - name: "Vered Shwartz"
-    email: "vshwartz@cs.ubc.ca"
-    affiliation: "Assistant Professor, The University of British Columbia; Faculty Member, Vector Institute"
-    bio: "Vered Shwartz is an Assistant Professor of Computer Science at the University of British Columbia (UBC) and a CIFAR AI Chair at the Vector Institute. Her research focuses on testing and improving the capabilities of large language models and vision and language models, developing culturally-competent AI, and responsible NLP applications in sensitive domains (e.g., legal, medical). Before joining UBC, Vered was a postdoctoral researcher at the Allen Institute for AI (AI2) and the University of Washington and received her PhD in Computer Science from Bar-Ilan University."
-    image: "vered.jpg"
-  - name: "Mohit Bansal"
-    email: "mbansal@cs.unc.edu"
-    affiliation: "Professor and Director, MURGe-Lab, University of North Carolina Chapel Hill"
-    bio: "Dr. Mohit Bansal is the John R. & Louise S. Parker Distinguished Professor and the Director of the MURGe-Lab (UNC-AI Group) in the Computer Science department at the University of North Carolina (UNC) Chapel Hill. He received his Ph.D. in 2013 from the University of California at Berkeley. His research expertise is in multimodal models, reasoning and planning agents, and interpretable, efficient, and generalizable deep learning. He is a AAAI Fellow and recipient of the Presidential Early Career Award for Scientists and Engineers (PECASE), DARPA Director's Fellowship, NSF CAREER Award, and outstanding paper awards at ACL, CVPR, and TMLR."
-    image: "mohit.png"
-  - name: "Leonid Sigal"
-    email: "lsigal@cs.ubc.ca"
-    affiliation: "Professor, The University of British Columbia; Faculty Member, Vector Institute"
-    bio: "Dr. Leonid Sigal is a Professor at the University of British Columbia and NSERC CRC Tier 2 Chair in Computer Vision and Machine Learning and a CIFAR AI Chair at the Vector Institute for AI. He is a recipient of a Killam Accelerator Research Fellowship Award. Dr. Sigal has a strong track record in computer vision and machine learning, most recently focused on foundational, multi-modal and vision language models. His works have won a number of awards, including being selected as Best Paper Finalists at CVPR in 2021 and 2022. He was a Local Chair for CVPR 2023."
-    image: "leonid.jpg"
-

@@ -26,7 +26,7 @@ description: COGVL: Cognitive Foundations for Multimodal Models - CVPR 2026 Work
 <section class="section">
     <div class="container">
         <div class="section-content">
-            <h2 class="section-title">About CogVL</h2>
+            <h2 class="section-title">About CogVL Workshop @ CVPR 2026</h2>
             <div class="abstract">
                 <p>Despite impressive perceptual and reasoning capabilities, vision-language models (VLMs) face challenges in systematic generalization, sample efficiency, commonsense reasoning, and trustworthy decision-making. The CogVL workshop provides a forum for researchers across computer vision, natural language processing, and cognitive science to explore how cognitively-inspired frameworks can address these limitations.</p>
                 
