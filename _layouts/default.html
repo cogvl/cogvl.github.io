@@ -27,6 +27,31 @@
     </main>
     
     {% include footer.html %}
+    
+    <script>
+        // Hamburger menu toggle
+        document.addEventListener('DOMContentLoaded', function() {
+            const hamburger = document.querySelector('.hamburger-menu');
+            const menu = document.querySelector('.navbar-menu');
+            
+            if (hamburger && menu) {
+                hamburger.addEventListener('click', function() {
+                    const isExpanded = hamburger.getAttribute('aria-expanded') === 'true';
+                    hamburger.setAttribute('aria-expanded', !isExpanded);
+                    menu.classList.toggle('active');
+                });
+                
+                // Close menu when clicking on a link
+                const menuLinks = menu.querySelectorAll('a');
+                menuLinks.forEach(link => {
+                    link.addEventListener('click', function() {
+                        hamburger.setAttribute('aria-expanded', 'false');
+                        menu.classList.remove('active');
+                    });
+                });
+            }
+        });
+    </script>
 </body>
 </html>
 
