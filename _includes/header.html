@@ -1,0 +1,24 @@
+<header class="site-header">
+    <nav class="navbar">
+        <div class="container">
+            <div class="navbar-brand">
+                <a href="{{ '/' | relative_url }}" class="logo-link">
+                    <img src="{{ '/static/images/cvpr-navbar-logo.svg' | relative_url }}" alt="CVPR" class="cvpr-logo">
+                    <span class="site-title">{{ site.workshop.title }}</span>
+                </a>
+            </div>
+            <ul class="navbar-menu">
+                <li><a href="{{ '/' | relative_url }}">Home</a></li>
+                <li><a href="{{ '/call-for-papers' | relative_url }}">Call for Papers</a></li>
+                <li><a href="{{ '/blackswan-challenge' | relative_url }}">BlackSwan Challenge</a></li>
+                <li><a href="{{ '/faq' | relative_url }}">FAQ</a></li>
+            </ul>
+            <div class="navbar-social">
+                <a href="{{ site.workshop.twitter }}" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
+                    <i class="fab fa-x-twitter"></i>
+                </a>
+            </div>
+        </div>
+    </nav>
+</header>
+

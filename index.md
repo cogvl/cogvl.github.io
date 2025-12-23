@@ -1,0 +1,122 @@
+---
+layout: default
+title: Home
+description: COGVL: Cognitive Foundations for Multimodal Models - CVPR 2026 Workshop
+---
+
+<div class="hero">
+    <div class="container">
+        <h1 class="hero-title">COGVL</h1>
+        <p class="hero-subtitle">Cognitive Foundations for Multimodal Models</p>
+        <div class="hero-meta">
+            <div class="hero-meta-item">
+                <i class="fas fa-calendar"></i>
+                <span>Date: TBD</span>
+            </div>
+            <div class="hero-meta-item">
+                <i class="fas fa-map-marker-alt"></i>
+                <span>Location: TBD</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<section class="section">
+    <div class="container">
+        <div class="section-content">
+            <h2 class="section-title">About CogVL</h2>
+            <div class="abstract">
+                <p>Despite impressive perceptual and reasoning capabilities, vision-language models (VLMs) face challenges in systematic generalization, sample efficiency, commonsense reasoning, and trustworthy decision-making. The CogVL workshop provides a forum for researchers across computer vision, natural language processing, and cognitive science to explore how cognitively-inspired frameworks can address these limitations.</p>
+                
+                <p>Our workshop is motivated by the emerging interest in whether cognitive principles such as counterfactual thinking, theory of mind, compositional reasoning, and causal inference can offer a blueprint for more adaptable, robust, and context-aware multimodal intelligence. Our half-day workshop features invited keynote talks, a panel discussion with leading experts, and selected papers. CogVL will also host the BlackSwan Challenge, which evaluates abductive reasoning (inferring hidden causes) and defeasible reasoning (adapting to new visual evidence) in unexpected video events.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section">
+    <div class="container">
+        <h2 class="section-title">Call for Papers</h2>
+        <div class="section-content">
+            <p>We welcome submissions of up to eight pages covering technical contributions, evaluations, and position papers. Submissions may address topics pertaining to cognitively inspired VLMs, including, but not limited to:</p>
+            
+            <div class="topics-grid">
+                <div class="topic-card">
+                    <h3><span class="topic-number">1</span> Robustness and Generalization</h3>
+                    <p>How can cognitive principles help models overcome spurious correlations and shortcut learning? What evaluation paradigms can reveal whether models have developed robust, generalizable understanding?</p>
+                </div>
+                
+                <div class="topic-card">
+                    <h3><span class="topic-number">2</span> Causal and Counterfactual Reasoning</h3>
+                    <p>How can VLMs move beyond surface correlations to understand causal relationships in visual scenes? What role does counterfactual thinking play in robust multimodal reasoning?</p>
+                </div>
+                
+                <div class="topic-card">
+                    <h3><span class="topic-number">3</span> Compositional and Structured Reasoning</h3>
+                    <p>How can models learn to compose visual concepts and reason over structured representations? What cognitive principles can guide the development of compositional generalization in VLMs?</p>
+                </div>
+                
+                <div class="topic-card">
+                    <h3><span class="topic-number">4</span> Theory of Mind and Social Reasoning</h3>
+                    <p>How can VLMs develop an understanding of agents' mental states, goals, and intentions? What is required for genuine social reasoning in multimodal contexts?</p>
+                </div>
+                
+                <div class="topic-card">
+                    <h3><span class="topic-number">5</span> Non-Monotonic Reasoning</h3>
+                    <p>How can models infer the most likely explanations for observed phenomena? How can they revise their conclusions when presented with new evidence?</p>
+                </div>
+                
+                <div class="topic-card">
+                    <h3><span class="topic-number">6</span> Dual-process Reasoning and Meta-Cognition</h3>
+                    <p>How can we bridge fast, intuitive processing (System 1) with slow, deliberate reasoning (System 2) in VLMs? What role does meta-cognitive monitoring play in reliable reasoning?</p>
+                </div>
+                
+                <div class="topic-card">
+                    <h3><span class="topic-number">7</span> Cognition for Embodied and Interactive Agents</h3>
+                    <p>How can cognitively inspired approaches improve situational awareness, planning, and collaboration in embodied AI systems? What cognitive capabilities are essential for human-robot interaction?</p>
+                </div>
+            </div>
+            
+            <div class="text-center mt-lg">
+                <a href="{{ '/call-for-papers' | relative_url }}" class="btn">Learn More & Submit</a>
+            </div>
+            
+            <div class="highlight-box mt-lg">
+                <h3>Important Dates</h3>
+                <ul class="timeline">
+                    <li class="timeline-item">
+                        <span class="timeline-date">March 1, 2026</span> - Workshop Paper Submission Deadline
+                    </li>
+                    <li class="timeline-item">
+                        <span class="timeline-date">March 25, 2026</span> - Notification to Authors
+                    </li>
+                    <li class="timeline-item">
+                        <span class="timeline-date">April 5, 2026</span> - Camera Ready Deadline
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="organizers-section section">
+    <div class="container">
+        <h2 class="section-title">Organizers</h2>
+        <div class="organizers-grid">
+            {% for organizer in site.organizers %}
+            <div class="organizer-card">
+                <img src="{{ '/static/images/organizers/' | append: organizer.image | relative_url }}" 
+                     alt="{{ organizer.name }}" 
+                     class="organizer-photo">
+                <h3 class="organizer-name">{{ organizer.name }}</h3>
+                <p class="organizer-affiliation">{{ organizer.affiliation }}</p>
+                <p class="organizer-bio">{{ organizer.bio }}</p>
+                <p class="organizer-email">
+                    <a href="mailto:{{ organizer.email }}"><i class="fas fa-envelope"></i> {{ organizer.email }}</a>
+                </p>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+
