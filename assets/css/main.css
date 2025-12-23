@@ -146,6 +146,11 @@ a:hover {
     flex-shrink: 0;
 }
 
+/* Hide mobile logo on desktop */
+.mobile-logo {
+    display: none;
+}
+
 .site-title {
     font-family: 'DM Serif Text', serif;
     font-size: 1.5rem;
@@ -672,6 +677,23 @@ a:hover {
     
     .site-title {
         font-size: 1.25rem;
+    }
+    
+    /* Hide logo in mobile navbar */
+    .navbar-brand .cvpr-logo {
+        display: none;
+    }
+    
+    /* Mobile logo in hero section */
+    .mobile-logo {
+        display: block;
+        margin: var(--spacing-md) auto 0;
+        text-align: center;
+    }
+    
+    .mobile-logo img {
+        height: 45px;
+        width: auto;
     }
     
     .topics-grid {
