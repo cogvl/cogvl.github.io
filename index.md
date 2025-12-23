@@ -10,11 +10,11 @@ description: COGVL: Cognitive Foundations for Multimodal Models - CVPR 2026 Work
         <div class="hero-meta">
             <div class="hero-meta-item">
                 <i class="fas fa-calendar"></i>
-                <span>Date: TBD</span>
+                <span>Date: June 3-7, exact date and time to be announced</span>
             </div>
             <div class="hero-meta-item">
                 <i class="fas fa-map-marker-alt"></i>
-                <span>Location: TBD</span>
+                <span>Location: Denver, Colorado</span>
             </div>
         </div>
     </div>
