@@ -193,7 +193,8 @@ a:hover {
 
 /* Hero Section */
 .hero {
-    background: transparent;
+    background: linear-gradient(135deg, var(--primary-color) 0%, var(--turquoise) 100%);
+    color: white;
     padding: var(--spacing-md) 0;
     text-align: center;
 }
@@ -201,7 +202,7 @@ a:hover {
 .hero-title {
     font-size: 3.75rem;
     margin-bottom: var(--spacing-md);
-    color: var(--primary-color);
+    color: white;
     font-family: 'DM Serif Text', serif;
     font-weight: 400;
 }
@@ -218,17 +219,17 @@ a:hover {
     display: flex;
     align-items: center;
     gap: var(--spacing-xs);
-    color: var(--text-light);
+    color: rgba(255, 255, 255, 0.9);
     font-size: 1.125rem;
 }
 
 .hero-meta-item i {
-    color: var(--primary-color);
+    color: white;
 }
 
 /* Sections */
 .section {
-    padding: var(--spacing-md) 0;
+    padding: 0;
 }
 
 /* Full-width sections with background colors */
@@ -482,7 +483,6 @@ a:hover {
 .site-footer {
     background-color: var(--primary-color);
     color: white;
-    margin-top: var(--spacing-xl);
     padding: var(--spacing-lg) 0;
 }
 
