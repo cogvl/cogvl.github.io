@@ -2,6 +2,7 @@
 layout: default
 title: BlackSwan Challenge
 description: The BlackSwan Challenge evaluates abductive and defeasible reasoning capabilities of VLMs in unexpected video events.
+permalink: /blackswan-challenge/
 ---
 
 <div class="challenge-hero">
