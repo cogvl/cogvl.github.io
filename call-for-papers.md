@@ -13,10 +13,40 @@ description: Submit your work to COGVL: Cognitive Foundations for Multimodal Mod
                 <p>The CogVL workshop provides a forum for students and researchers across computer vision, natural language processing, and cognitive science to explore how cognitively inspired frameworks can enhance the robustness, generalization, and interpretability of VLMs. The workshop will feature invited talks by leading experts and a panel discussion examining how cognitive principles can reshape model architectures, learning paradigms, and evaluation methodologies.</p>
             </div>
             
-            <h2>Submission Guidelines</h2>
-            <p>We welcome submissions of up to <strong>eight pages</strong> (excluding references) covering technical contributions, evaluations, and position papers. Submissions may address topics pertaining to cognitively inspired VLMs, including, but not limited to the topics listed below.</p>
+            <h2>Submission Tracks</h2>
+            <p>We welcome submissions covering technical contributions, evaluations, and position papers. Submissions may address topics pertaining to cognitively inspired VLMs, including, but not limited to the topics listed below.</p>
             
-            <div class="highlight-box">
+            <p>We will have <strong>two tracks</strong> for paper submissions:</p>
+            
+            <div class="topics-grid" style="margin-top: var(--spacing-md);">
+                <div class="topic-card" style="border-left: 4px solid var(--accent-color);">
+                    <h3><span class="topic-number">1</span> Track 1: Papers with IEEE/CVF Workshop Proceedings</h3>
+                    <p><strong>Page limit:</strong> 8 pages (excluding references)</p>
+                    <p><strong>Requirements:</strong></p>
+                    <ul style="margin-left: 1.5rem; margin-top: 0.5rem;">
+                        <li>Original, previously unpublished papers</li>
+                        <li>Dual submissions are <strong>not allowed</strong></li>
+                        <li>Accepted papers will be included in the IEEE/CVF workshop proceedings</li>
+                    </ul>
+                </div>
+                
+                <div class="topic-card" style="border-left: 4px solid var(--accent-color);">
+                    <h3><span class="topic-number">2</span> Track 2: Papers without Workshop Proceedings</h3>
+                    <p><strong>Page limit:</strong> ≤ 8 pages (excluding references)</p>
+                    <p><strong>Requirements:</strong></p>
+                    <ul style="margin-left: 1.5rem; margin-top: 0.5rem;">
+                        <li>Papers will <strong>not</strong> be included in the proceedings</li>
+                        <li>Accepted papers will be publicly shared on the workshop website</li>
+                    </ul>
+                    <p style="margin-top: 1rem;"><strong>Two subcategories:</strong></p>
+                    <ul style="margin-left: 1.5rem; margin-top: 0.5rem;">
+                        <li><strong>Novel/ongoing work:</strong> Limited to 4 pages (excluding references)</li>
+                        <li><strong>Accepted/previously published papers:</strong> Limited to 8 pages (excluding references)</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="highlight-box" style="margin-top: var(--spacing-lg);">
                 <h3>Submission Site</h3>
                 <p>The submission link will be announced soon. Please check back for updates.</p>
             </div>
@@ -86,7 +116,7 @@ description: Submit your work to COGVL: Cognitive Foundations for Multimodal Mod
             <p>All accepted papers will be presented in a poster session to foster discussion and facilitate the exchange of ideas across disciplines. Selected papers will be presented as spotlight talks during the workshop.</p>
             
             <h2>Formatting Requirements</h2>
-            <p>Papers should follow the CVPR 2026 formatting guidelines. The maximum page limit is 8 pages (excluding references). All submissions must be in PDF format.</p>
+            <p>Papers should follow the CVPR 2026 formatting guidelines. Page limits vary by track (see Submission Tracks above). All submissions must be in PDF format.</p>
             
             <div class="text-center mt-lg">
                 <a href="#" class="btn" style="pointer-events: none; opacity: 0.6;">Submission Site (Coming Soon)</a>

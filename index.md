@@ -102,15 +102,51 @@ description: COGVL: Cognitive Foundations for Multimodal Models - CVPR 2026 Work
     <div class="container">
         <h2 class="section-title">Organizers</h2>
         <div class="organizers-grid">
-            {% for organizer in site.organizers %}
             <div class="organizer-card">
-                <img src="{{ '/static/images/organizers/' | append: organizer.image | relative_url }}" 
-                     alt="{{ organizer.name }}" 
-                     class="organizer-photo">
-                <h3 class="organizer-name">{{ organizer.name }}</h3>
-                <p class="organizer-affiliation">{{ organizer.affiliation }}</p>
+                <img src="{{ '/static/images/organizers/aditya.jpg' | relative_url }}" alt="Aditya Chinchure" class="organizer-photo">
+                <h3 class="organizer-name">Aditya Chinchure</h3>
+                <p class="organizer-affiliation">PhD Student, The University of British Columbia</p>
             </div>
-            {% endfor %}
+            <div class="organizer-card">
+                <img src="{{ '/static/images/organizers/sahithya.JPG' | relative_url }}" alt="Sahithya Ravi" class="organizer-photo">
+                <h3 class="organizer-name">Sahithya Ravi</h3>
+                <p class="organizer-affiliation">PhD Candidate, The University of British Columbia</p>
+            </div>
+            <div class="organizer-card">
+                <img src="{{ '/static/images/organizers/yossi.png' | relative_url }}" alt="Yossi Gandelsman" class="organizer-photo">
+                <h3 class="organizer-name">Yossi Gandelsman</h3>
+                <p class="organizer-affiliation">Research scientist, Reve; Incoming Assistant Professor, TTIC</p>
+            </div>
+            <div class="organizer-card">
+                <img src="{{ '/static/images/organizers/shweta.jpeg' | relative_url }}" alt="Shweta Mahajan" class="organizer-photo">
+                <h3 class="organizer-name">Shweta Mahajan</h3>
+                <p class="organizer-affiliation">Senior Machine Learning Researcher, Qualcomm AI Research; Incoming Assistant Professor, York University; Faculty Affiliate, Vector Institute</p>
+            </div>
+            <div class="organizer-card">
+                <img src="{{ '/static/images/organizers/gabriel.jpg' | relative_url }}" alt="Gabriel Sarch" class="organizer-photo">
+                <h3 class="organizer-name">Gabriel Sarch</h3>
+                <p class="organizer-affiliation">Postdoctoral Research Fellow, Princeton</p>
+            </div>
+            <div class="organizer-card">
+                <img src="{{ '/static/images/organizers/ranjay.jpeg' | relative_url }}" alt="Ranjay Krishna" class="organizer-photo">
+                <h3 class="organizer-name">Ranjay Krishna</h3>
+                <p class="organizer-affiliation">Assistant Professor, UWashington; AI2</p>
+            </div>
+            <div class="organizer-card">
+                <img src="{{ '/static/images/organizers/vered.jpg' | relative_url }}" alt="Vered Shwartz" class="organizer-photo">
+                <h3 class="organizer-name">Vered Shwartz</h3>
+                <p class="organizer-affiliation">Assistant Professor, The University of British Columbia; Faculty Member, Vector Institute</p>
+            </div>
+            <div class="organizer-card">
+                <img src="{{ '/static/images/organizers/mohit.png' | relative_url }}" alt="Mohit Bansal" class="organizer-photo">
+                <h3 class="organizer-name">Mohit Bansal</h3>
+                <p class="organizer-affiliation">Professor and Director, MURGe-Lab, University of North Carolina Chapel Hill</p>
+            </div>
+            <div class="organizer-card">
+                <img src="{{ '/static/images/organizers/leonid.jpg' | relative_url }}" alt="Leonid Sigal" class="organizer-photo">
+                <h3 class="organizer-name">Leonid Sigal</h3>
+                <p class="organizer-affiliation">Professor, The University of British Columbia; Faculty Member, Vector Institute</p>
+            </div>
         </div>
     </div>
 </section>
