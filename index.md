@@ -110,10 +110,6 @@ description: COGVL: Cognitive Foundations for Multimodal Models - CVPR 2026 Work
                      class="organizer-photo">
                 <h3 class="organizer-name">{{ organizer.name }}</h3>
                 <p class="organizer-affiliation">{{ organizer.affiliation }}</p>
-                <p class="organizer-bio">{{ organizer.bio }}</p>
-                <p class="organizer-email">
-                    <a href="mailto:{{ organizer.email }}"><i class="fas fa-envelope"></i> {{ organizer.email }}</a>
-                </p>
             </div>
             {% endfor %}
         </div>
