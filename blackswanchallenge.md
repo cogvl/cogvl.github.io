@@ -16,7 +16,7 @@ permalink: /blackswanchallenge/
     <div class="container">
         <div class="section-content">
             <h2>Overview</h2>
-            <p>In addition to inviting submissions on cognitively-inspired VLMs, we feature the BlackSwan Challenge based on our dataset presented at CVPR 2025, which measures deeper reasoning abilities of VLMs in unforeseen and unexpected scenarios.</p>
+            <p>We feature the BlackSwan Challenge based on our dataset presented at CVPR 2025, which measures deeper reasoning abilities of VLMs in unforeseen and unexpected scenarios.</p>
             
             <div class="challenge-figure">
                 <img src="{{ '/static/images/VARmain.png' | relative_url }}" alt="BlackSwan Dataset Tasks">
@@ -24,6 +24,41 @@ permalink: /blackswanchallenge/
                     The BlackSwan dataset features three tasks: Forecaster (evaluating what happens next), Detective (testing abductive reasoning) and Reporter (testing defeasible reasoning). Our challenge tests Video-VLMs capabilities at these challenging tasks on unexpected and surprising events in videos.
                 </p>
             </div>
+        </div>
+    </div>
+</section>
+
+<section class="section" style="background-color: var(--bg-light);">
+    <div class="container">
+        <div class="section-content">
+            <h2 class="text-center">Get Started</h2>
+            <div class="challenge-links">
+                <a href="https://blackswan.cs.ubc.ca" target="_blank" rel="noopener noreferrer" class="btn">
+                    <i class="fas fa-globe"></i> Visit BlackSwan Website
+                </a>
+                <a href="https://huggingface.co/collections/UBC-ViL/black-swan-abductive-and-defeasible-reasoning" target="_blank" rel="noopener noreferrer" class="btn">
+                    <i class="fas fa-download"></i> Download Dataset
+                </a>
+                <a href="https://eval.ai/web/challenges/challenge-page/2484/leaderboard" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+                    <i class="fas fa-trophy"></i> View Leaderboard
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section">
+    <div class="container">
+        <div class="highlight-box">
+            <h3>Challenge Timeline</h3>
+            <ul class="timeline">
+                <li class="timeline-item">
+                    <span class="timeline-date">January 2026</span> - Challenge Launch
+                </li>
+                <li class="timeline-item">
+                    <span class="timeline-date">End of April 2026</span> - Challenge Closes
+                </li>
+            </ul>
         </div>
     </div>
 </section>
@@ -78,38 +113,9 @@ permalink: /blackswanchallenge/
             <p>Submissions to the BlackSwan Challenge will be evaluated on EvalAI using accuracy as the evaluation metric for both MCQ and Y/N tasks. BlackSwanSuite is divided into a public validation set and a private test set, which prevents overfitting. Participants will have access to videos and questions from the public validation set and the private test set. The validation set will have its ground-truth answers available, whereas the test set answers are private.</p>
             
             <p>Videos will be provided with the Creative Commons Attribution Non Commercial Share Alike 4.0 license. Challenge results will use test set scores, which will only be computed using the leaderboard. Participants must submit a JSON file containing their model's predictions for their test set. The leaderboard will enable comparison with human baselines and state-of-the-art VLMs such as GPT-4o and LLaVA-Video.</p>
-            
-            <div class="highlight-box">
-                <h3>Challenge Timeline</h3>
-                <ul class="timeline">
-                    <li class="timeline-item">
-                        <span class="timeline-date">January 2026</span> - Challenge Launch
-                    </li>
-                    <li class="timeline-item">
-                        <span class="timeline-date">End of April 2026</span> - Challenge Closes
-                    </li>
-                </ul>
-            </div>
         </div>
     </div>
 </section>
 
-<section class="section" style="background-color: var(--bg-light);">
-    <div class="container">
-        <div class="section-content">
-            <h2 class="text-center">Get Started</h2>
-            <div class="challenge-links">
-                <a href="https://blackswan.cs.ubc.ca" target="_blank" rel="noopener noreferrer" class="btn">
-                    <i class="fas fa-globe"></i> Visit BlackSwan Website
-                </a>
-                <a href="https://huggingface.co/collections/UBC-ViL/black-swan-abductive-and-defeasible-reasoning" target="_blank" rel="noopener noreferrer" class="btn">
-                    <i class="fas fa-download"></i> Download Dataset
-                </a>
-                <a href="https://eval.ai/web/challenges/challenge-page/2484/leaderboard" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
-                    <i class="fas fa-trophy"></i> View Leaderboard
-                </a>
-            </div>
-        </div>
-    </div>
-</section>
+
 

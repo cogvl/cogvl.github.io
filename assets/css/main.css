@@ -489,8 +489,6 @@ a:hover {
 .challenge-figure img {
     max-width: 100%;
     height: auto;
-    border-radius: var(--border-radius);
-    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
 }
 
 .challenge-links {
