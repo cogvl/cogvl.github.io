@@ -702,21 +702,14 @@ a:hover {
         font-size: 1.25rem;
     }
 
-    /* Hide logo in mobile navbar */
+    /* Keep logo visible in mobile navbar */
     .navbar-brand .cvpr-logo {
-        display: none;
+        height: 35px;
     }
 
-    /* Mobile logo in hero section */
+    /* Hide mobile logo in hero section */
     .mobile-logo {
-        display: block;
-        margin: var(--spacing-md) auto 0;
-        text-align: center;
-    }
-
-    .mobile-logo img {
-        height: 45px;
-        width: auto;
+        display: none;
     }
 
     .topics-grid {
