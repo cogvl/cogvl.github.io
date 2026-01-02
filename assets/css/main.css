@@ -556,10 +556,17 @@ a:hover {
 .footer-logo {
     display: flex;
     align-items: center;
+    gap: var(--spacing-md);
+}
+
+.footer-cogvl-logo {
+    height: 50px;
+    width: auto;
+    opacity: 0.9;
 }
 
 .footer-cvpr-logo {
-    height: 60px;
+    height: 50px;
     width: auto;
     opacity: 0.9;
 }

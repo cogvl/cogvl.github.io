@@ -18,7 +18,7 @@ description: COGVL: Cognitive Foundations for Multimodal Models - CVPR 2026 Work
             </div>
         </div>
         <div class="mobile-logo">
-            <img src="{{ '/static/images/cvpr-navbar-logo.svg' | relative_url }}" alt="CVPR" class="cvpr-logo">
+            <img src="{{ '/static/images/cogvl-logo.svg' | relative_url }}" alt="CogVL" class="cvpr-logo">
         </div>
     </div>
 </div>
