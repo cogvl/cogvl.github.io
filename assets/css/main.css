@@ -245,7 +245,7 @@ a:hover {
 }
 
 .hero-title {
-    font-size: 3.75rem;
+    font-size: 3rem;
     margin-bottom: var(--spacing-md);
     color: white;
     font-family: 'DM Serif Text', serif;

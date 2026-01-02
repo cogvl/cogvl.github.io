@@ -6,7 +6,7 @@ description: COGVL: Cognitive Foundations for Multimodal Models - CVPR 2026 Work
 
 <div class="hero">
     <div class="container">
-        <h1 class="hero-title">COGVL: Cognitive Foundations for Multimodal Models</h1>
+        <h1 class="hero-title">CogVL: Cognitive Foundations for Multimodal Models</h1>
         <div class="hero-meta">
             <div class="hero-meta-item">
                 <i class="fas fa-calendar"></i>
@@ -33,9 +33,13 @@ description: COGVL: Cognitive Foundations for Multimodal Models - CVPR 2026 Work
             </div>
             
             <h2 class="section-title">Announcements</h2>
-            <ul class="announcements-list">
-                <li>Follow <a href="{{ site.workshop.twitter }}" target="_blank" rel="noopener noreferrer">CogVL Workshop on X</a> for updates</li>
-            </ul>
+            <div class="highlight-box">
+                <ul class="timeline">
+                    <li class="timeline-item">
+                        Follow <a href="{{ site.workshop.twitter }}" target="_blank" rel="noopener noreferrer">CogVL Workshop on X</a> for updates
+                    </li>
+                </ul>
+            </div>
         </div>
     </div>
 </section>
