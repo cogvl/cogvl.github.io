@@ -36,7 +36,7 @@ description: COGVL: Cognitive Foundations for Multimodal Models - CVPR 2026 Work
             <div class="highlight-box">
                 <ul class="timeline">
                     <li class="timeline-item">
-                        Follow us on X! <a href="{{ site.workshop.twitter }}" target="_blank" rel="noopener noreferrer">CogVL Workshop on X</a>!
+                        Follow us on X! <a href="{{ site.workshop.twitter }}" target="_blank" rel="noopener noreferrer">CogVL Workshop on X</a>
                     </li>
                 </ul>
             </div>
