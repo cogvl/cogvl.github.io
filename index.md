@@ -26,12 +26,16 @@ description: COGVL: Cognitive Foundations for Multimodal Models - CVPR 2026 Work
 <section class="section">
     <div class="container">
         <div class="section-content">
-            <h2 class="section-title">About CogVL Workshop @ CVPR 2026</h2>
             <div class="abstract">
                 <p>Despite impressive perceptual and reasoning capabilities, vision-language models (VLMs) face challenges in systematic generalization, sample efficiency, commonsense reasoning, and trustworthy decision-making. The CogVL workshop provides a forum for researchers across computer vision, natural language processing, and cognitive science to explore how cognitively-inspired frameworks can address these limitations.</p>
                 
                 <p>Our workshop is motivated by the emerging interest in whether cognitive principles such as counterfactual thinking, theory of mind, compositional reasoning, and causal inference can offer a blueprint for more adaptable, robust, and context-aware multimodal intelligence. Our half-day workshop features invited keynote talks, a panel discussion with leading experts, and selected papers. CogVL will also host the BlackSwan Challenge, which evaluates abductive reasoning (inferring hidden causes) and defeasible reasoning (adapting to new visual evidence) in unexpected video events.</p>
             </div>
+            
+            <h2 class="section-title">Announcements</h2>
+            <ul class="announcements-list">
+                <li>Follow <a href="{{ site.workshop.twitter }}" target="_blank" rel="noopener noreferrer">CogVL Workshop on X</a> for updates</li>
+            </ul>
         </div>
     </div>
 </section>

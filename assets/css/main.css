@@ -327,6 +327,19 @@ a:hover {
     color: var(--text-dark);
 }
 
+/* Announcements */
+.announcements-list {
+    list-style: disc;
+    padding-left: var(--spacing-md);
+    margin: var(--spacing-md) 0;
+}
+
+.announcements-list li {
+    padding: var(--spacing-xs) 0;
+    color: var(--text-dark);
+    line-height: 1.6;
+}
+
 /* Topics Grid */
 .topics-grid {
     display: grid;
