@@ -35,7 +35,7 @@ html {
 
 body {
     font-family: 'Figtree', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 1.7;
     color: var(--primary-color);
     background-color: var(--bg-color);
@@ -350,14 +350,14 @@ a:hover {
 
 .topic-card {
     background-color: var(--bg-light);
-    padding: var(--spacing-md);
+    padding: var(--spacing-sm);
     border-radius: var(--border-radius);
     border: 1px solid var(--accent-light);
 }
 
 .topic-card h3 {
     color: var(--primary-color);
-    margin-bottom: var(--spacing-xs);
+    margin-bottom: 0;
     font-size: 1.375rem;
 }
 
@@ -389,9 +389,11 @@ a:hover {
     grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
     gap: var(--spacing-md);
     margin-top: var(--spacing-lg);
+    justify-content: center;
 }
 
 .speaker-card {
+    background-color: var(--bg-color);
     padding: var(--spacing-md);
     border-radius: var(--border-radius);
     text-align: center;
@@ -400,23 +402,6 @@ a:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-/* Different background colors for each speaker card */
-.speaker-card:nth-child(1) {
-    background-color: #FFF8E7;
-}
-
-.speaker-card:nth-child(2) {
-    background-color: #E7F5FF;
-}
-
-.speaker-card:nth-child(3) {
-    background-color: #F3E5F5;
-}
-
-.speaker-card:nth-child(4) {
-    background-color: #E8F5E9;
 }
 
 .speaker-photo {
