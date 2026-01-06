@@ -53,37 +53,30 @@ description: COGVL: Cognitive Foundations for Multimodal Models - CVPR 2026 Work
             <div class="topics-grid">
                 <div class="topic-card">
                     <h3><span class="topic-number">1</span> Robustness and Generalization</h3>
-                    <p>How can cognitive principles help models overcome spurious correlations and shortcut learning? What evaluation paradigms can reveal whether models have developed robust, generalizable understanding?</p>
                 </div>
                 
                 <div class="topic-card">
                     <h3><span class="topic-number">2</span> Causal and Counterfactual Reasoning</h3>
-                    <p>How can VLMs move beyond surface correlations to understand causal relationships in visual scenes? What role does counterfactual thinking play in robust multimodal reasoning?</p>
                 </div>
                 
                 <div class="topic-card">
                     <h3><span class="topic-number">3</span> Compositional and Structured Reasoning</h3>
-                    <p>How can models learn to compose visual concepts and reason over structured representations? What cognitive principles can guide the development of compositional generalization in VLMs?</p>
                 </div>
                 
                 <div class="topic-card">
                     <h3><span class="topic-number">4</span> Theory of Mind and Social Reasoning</h3>
-                    <p>How can VLMs develop an understanding of agents' mental states, goals, and intentions? What is required for genuine social reasoning in multimodal contexts?</p>
                 </div>
                 
                 <div class="topic-card">
                     <h3><span class="topic-number">5</span> Non-Monotonic Reasoning</h3>
-                    <p>How can models infer the most likely explanations for observed phenomena? How can they revise their conclusions when presented with new evidence?</p>
                 </div>
                 
                 <div class="topic-card">
                     <h3><span class="topic-number">6</span> Dual-process Reasoning and Meta-Cognition</h3>
-                    <p>How can we bridge fast, intuitive processing (System 1) with slow, deliberate reasoning (System 2) in VLMs? What role does meta-cognitive monitoring play in reliable reasoning?</p>
                 </div>
                 
                 <div class="topic-card">
                     <h3><span class="topic-number">7</span> Cognition for Embodied and Interactive Agents</h3>
-                    <p>How can cognitively inspired approaches improve situational awareness, planning, and collaboration in embodied AI systems? What cognitive capabilities are essential for human-robot interaction?</p>
                 </div>
             </div>
             
@@ -104,6 +97,38 @@ description: COGVL: Cognitive Foundations for Multimodal Models - CVPR 2026 Work
                         <span class="timeline-date">April 5, 2026</span> - Camera Ready Deadline
                     </li>
                 </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="speakers" class="speakers-section section">
+    <div class="container">
+        <h2 class="section-title">Keynote Speakers (Tentative)</h2>
+        <div class="speakers-grid">
+            <div class="speaker-card">
+                <img src="{{ '/static/images/speakers/trevor-darrell.jpg' | relative_url }}" alt="Trevor Darrell" class="speaker-photo">
+                <h3 class="speaker-name">Trevor Darrell</h3>
+                <p class="speaker-affiliation">Berkeley EECS / BAIR</p>
+                <a href="https://people.eecs.berkeley.edu/~trevor/" target="_blank" rel="noopener noreferrer" class="speaker-website">Website</a>
+            </div>
+            <div class="speaker-card">
+                <img src="{{ '/static/images/speakers/carl-vondrick.jpg' | relative_url }}" alt="Carl Vondrick" class="speaker-photo">
+                <h3 class="speaker-name">Carl Vondrick</h3>
+                <p class="speaker-affiliation">Columbia University</p>
+                <a href="https://www.cs.columbia.edu/~vondrick/" target="_blank" rel="noopener noreferrer" class="speaker-website">Website</a>
+            </div>
+            <div class="speaker-card">
+                <img src="{{ '/static/images/speakers/judith-fan.jpg.webp' | relative_url }}" alt="Judy Fan" class="speaker-photo">
+                <h3 class="speaker-name">Judy Fan</h3>
+                <p class="speaker-affiliation">Stanford Psychology & CS</p>
+                <a href="https://psychology.stanford.edu/people/judith-ellen-fan" target="_blank" rel="noopener noreferrer" class="speaker-website">Website</a>
+            </div>
+            <div class="speaker-card">
+                <img src="{{ '/static/images/speakers/alane-suhr.jpg.webp' | relative_url }}" alt="Alane Suhr" class="speaker-photo">
+                <h3 class="speaker-name">Alane Suhr</h3>
+                <p class="speaker-affiliation">Berkeley EECS / BAIR</p>
+                <a href="https://www.alanesuhr.com" target="_blank" rel="noopener noreferrer" class="speaker-website">Website</a>
             </div>
         </div>
     </div>

@@ -28,24 +28,6 @@ permalink: /blackswanchallenge/
     </div>
 </section>
 
-<section class="section" style="background-color: var(--bg-light);">
-    <div class="container">
-        <div class="section-content">
-            <h2 class="text-center">Get Started</h2>
-            <div class="challenge-links">
-                <a href="https://blackswan.cs.ubc.ca" target="_blank" rel="noopener noreferrer" class="btn">
-                    <i class="fas fa-globe"></i> Visit BlackSwan Website
-                </a>
-                <a href="https://huggingface.co/collections/UBC-ViL/black-swan-abductive-and-defeasible-reasoning" target="_blank" rel="noopener noreferrer" class="btn">
-                    <i class="fas fa-download"></i> Download Dataset
-                </a>
-                <a href="https://eval.ai/web/challenges/challenge-page/2484/leaderboard" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
-                    <i class="fas fa-trophy"></i> View Leaderboard
-                </a>
-            </div>
-        </div>
-    </div>
-</section>
 
 <section class="section">
     <div class="container">
@@ -53,10 +35,10 @@ permalink: /blackswanchallenge/
             <h3>Challenge Timeline</h3>
             <ul class="timeline">
                 <li class="timeline-item">
-                    <span class="timeline-date">January 2026</span> - Challenge Launch
+                    <span class="timeline-date">January 2026</span> - Challenge will be announced soon. Please stay tuned.
                 </li>
                 <li class="timeline-item">
-                    <span class="timeline-date">End of April 2026</span> - Challenge Closes
+                    <span class="timeline-date">April 15, 2026</span> - Challenge end date
                 </li>
             </ul>
         </div>
@@ -78,7 +60,7 @@ permalink: /blackswanchallenge/
     <div class="container">
         <div class="section-content">
             <h2>The Challenge</h2>
-            <p>To this end, we introduce the BlackSwan Challenge, built upon the recently developed BlackSwanSuite benchmark presented at CVPR 2025. The benchmark evaluates how well VLMs can reason about unexpected events in videos through a set of multiple-choice (MCQ) and yes/no (Y/N) questions. Each question type targets a distinct reasoning skill:</p>
+            <p>We introduce the BlackSwan Challenge, built upon the recently developed BlackSwanSuite benchmark presented at CVPR 2025. The benchmark evaluates how well VLMs can reason about unexpected events in videos through various tasks, including multiple-choice questions (MCQ). The challenge targets distinct reasoning skills:</p>
             
             <div class="topics-grid">
                 <div class="topic-card">
@@ -92,16 +74,36 @@ permalink: /blackswanchallenge/
                 </div>
             </div>
             
-            <p>The dataset comprises over <strong>3,800 MCQ</strong>, <strong>4,900 generative</strong>, and <strong>6,700 Y/N tasks</strong> across <strong>1,655 videos</strong>, each containing atypical, counterintuitive, or unexpected visual situations. These scenarios are deliberately constructed to minimize the usefulness of memorized patterns, forcing models to reason instead of recall. BlackSwan is challenging for VLMs, with significant performance gaps of up to <strong>32%</strong> from humans on these tasks.</p>
+            <p>The dataset comprises over <strong>3,800 MCQ tasks</strong> across <strong>1,655 videos</strong>, each containing atypical, counterintuitive, or unexpected visual situations. These scenarios are deliberately constructed to minimize the usefulness of memorized patterns, forcing models to reason instead of recall. BlackSwan is challenging for VLMs, with significant performance gaps of up to <strong>32%</strong> from humans on these tasks.</p>
+            <p>Your goal is to beat existing video understanding models on the BlackSwan MCQ tasks for "Detective" and "Reporter" variants of the benchmark. You can submit your results to the leaderboard (to be announced soon) and get ranked based on your performance. The best performing team will win prizes and be showcase their method at the workshop. Details about submission to the leaderboard and qualification criteria will be announced soon.</p>
         </div>
     </div>
 </section>
 
-<section class="section" style="background-color: var(--bg-light);">
+<!-- <section class="section" style="background-color: var(--bg-light);">
     <div class="container">
         <div class="section-content">
             <h2>Connection to Workshop Goals</h2>
             <p>The BlackSwan Challenge aligns closely with the mission of CogVL, which seeks to reintroduce and evaluate human cognitive principles such as causal inference, theory of mind, and counterfactual reasoning in multimodal learning. BlackSwan tests the abductive and defeasible reasoning capabilities of multimodal models under uncertainty. The challenge directly probes the cognitive depth of VLMs and exposes their current limitations in handling non-canonical, unexpected, and dynamic events. Through this challenge, we aim to stimulate research into VLM architectures, training, and inference-time methods that advance video understanding models toward robust, interpretable, and cognitively grounded reasoning.</p>
+        </div>
+    </div>
+</section> -->
+
+<section class="section" style="background-color: var(--bg-light);">
+    <div class="container">
+        <div class="section-content">
+            <h2 class="text-center">Get Started</h2>
+            <div class="challenge-links">
+                <a href="https://blackswan.cs.ubc.ca" target="_blank" rel="noopener noreferrer" class="btn">
+                    <i class="fas fa-globe"></i> Visit BlackSwan Website
+                </a>
+                <a href="https://huggingface.co/collections/UBC-ViL/black-swan-abductive-and-defeasible-reasoning" target="_blank" rel="noopener noreferrer" class="btn">
+                    <i class="fas fa-download"></i> Download Dataset
+                </a>
+                <a href="https://eval.ai/web/challenges/challenge-page/2484/leaderboard" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+                    <i class="fas fa-trophy"></i> View Leaderboard
+                </a>
+            </div>
         </div>
     </div>
 </section>
@@ -110,9 +112,11 @@ permalink: /blackswanchallenge/
     <div class="container">
         <div class="section-content">
             <h2>Evaluation</h2>
-            <p>Submissions to the BlackSwan Challenge will be evaluated on EvalAI using accuracy as the evaluation metric for both MCQ and Y/N tasks. BlackSwanSuite is divided into a public validation set and a private test set, which prevents overfitting. Participants will have access to videos and questions from the public validation set and the private test set. The validation set will have its ground-truth answers available, whereas the test set answers are private.</p>
+            <p>Submissions to the BlackSwan Challenge will be evaluated on a Huggingface leaderboard using accuracy as the evaluation metric for MCQ tasks. BlackSwanSuite is divided into a public validation set and a private test set, which prevents overfitting. Participants will have access to videos and questions from the public validation set and the private test set (use the link above to access it on Huggingface). Only the validation set will have its ground-truth answers available, whereas the test set answers are private.</p>
             
-            <p>Videos will be provided with the Creative Commons Attribution Non Commercial Share Alike 4.0 license. Challenge results will use test set scores, which will only be computed using the leaderboard. Participants must submit a JSON file containing their model's predictions for their test set. The leaderboard will enable comparison with human baselines and state-of-the-art VLMs such as GPT-4o and LLaVA-Video.</p>
+            <p>Videos will be provided with the Creative Commons Attribution Non Commercial Share Alike 4.0 license. Challenge results will use test set scores, which will only be computed using the leaderboard. Participants must submit a JSON file containing their model's predictions for their test set. The leaderboard will enable comparison with human baselines and previous state-of-the-art VLMs.</p>
+            
+            <p>More information is coming soon on instructions to upload your results.</p>
         </div>
     </div>
 </section>
