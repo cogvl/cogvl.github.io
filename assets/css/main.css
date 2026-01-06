@@ -357,6 +357,7 @@ a:hover {
 
 .topic-card h3 {
     color: var(--primary-color);
+    margin-top: 0;
     margin-bottom: 0;
     font-size: 1.375rem;
 }
@@ -385,8 +386,8 @@ a:hover {
 }
 
 .speakers-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    display: flex;
+    flex-wrap: wrap;
     gap: var(--spacing-md);
     margin-top: var(--spacing-lg);
     justify-content: center;
@@ -402,6 +403,7 @@ a:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 220px;
 }
 
 .speaker-photo {

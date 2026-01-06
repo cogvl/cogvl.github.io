@@ -52,31 +52,31 @@ description: COGVL: Cognitive Foundations for Multimodal Models - CVPR 2026 Work
             
             <div class="topics-grid">
                 <div class="topic-card">
-                    <h3><span class="topic-number">1</span> Robustness and Generalization</h3>
+                    <h3>Robustness and Generalization</h3>
                 </div>
                 
                 <div class="topic-card">
-                    <h3><span class="topic-number">2</span> Causal and Counterfactual Reasoning</h3>
+                    <h3>Causal and Counterfactual Reasoning</h3>
                 </div>
                 
                 <div class="topic-card">
-                    <h3><span class="topic-number">3</span> Compositional and Structured Reasoning</h3>
+                    <h3>Compositional and Structured Reasoning</h3>
                 </div>
                 
                 <div class="topic-card">
-                    <h3><span class="topic-number">4</span> Theory of Mind and Social Reasoning</h3>
+                    <h3>Theory of Mind and Social Reasoning</h3>
                 </div>
                 
                 <div class="topic-card">
-                    <h3><span class="topic-number">5</span> Non-Monotonic Reasoning</h3>
+                    <h3>Non-Monotonic Reasoning</h3>
                 </div>
                 
                 <div class="topic-card">
-                    <h3><span class="topic-number">6</span> Dual-process Reasoning and Meta-Cognition</h3>
+                    <h3>Dual-process Reasoning and Meta-Cognition</h3>
                 </div>
                 
                 <div class="topic-card">
-                    <h3><span class="topic-number">7</span> Cognition for Embodied and Interactive Agents</h3>
+                    <h3>Cognition for Embodied and Interactive Agents</h3>
                 </div>
             </div>
             
