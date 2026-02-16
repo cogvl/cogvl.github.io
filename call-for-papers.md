@@ -48,7 +48,7 @@ description: Submit your work to COGVL: Cognitive Foundations for Multimodal Mod
             
             <div class="highlight-box" style="margin-top: var(--spacing-lg);">
                 <h3>Submission Site</h3>
-                <p>The submission link will be announced soon. Please check back for updates.</p>
+                <p>Submit your papers via OpenReview: <a href="https://openreview.net/group?id=thecvf.com/CVPR/2026/Workshop/CogVL" target="_blank">https://openreview.net/group?id=thecvf.com/CVPR/2026/Workshop/CogVL</a></p>
             </div>
             
             <h2>Topics of Interest</h2>
@@ -118,8 +118,8 @@ description: Submit your work to COGVL: Cognitive Foundations for Multimodal Mod
             <h2>Formatting Requirements</h2>
             <p>Papers should follow the CVPR 2026 formatting guidelines. Page limits vary by track (see Submission Tracks above). All submissions must be in PDF format.</p>
             
-            <div class="text-center mt-lg">
-                <a href="#" class="btn" style="pointer-events: none; opacity: 0.6;">Submission Site (Coming Soon)</a>
+            <div class="text-center mt-lg" style="margin-bottom: var(--spacing-xl);">
+                <a href="https://openreview.net/group?id=thecvf.com/CVPR/2026/Workshop/CogVL" class="btn" target="_blank">Submit on OpenReview</a>
             </div>
         </div>
     </div>
