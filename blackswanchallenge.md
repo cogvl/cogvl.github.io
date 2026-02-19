@@ -75,7 +75,7 @@ permalink: /blackswanchallenge/
             </div>
             
             <p>The dataset comprises over <strong>3,800 MCQ tasks</strong> across <strong>1,655 videos</strong>, each containing atypical, counterintuitive, or unexpected visual situations. These scenarios are deliberately constructed to minimize the usefulness of memorized patterns, forcing models to reason instead of recall. BlackSwan is challenging for VLMs, with significant performance gaps of up to <strong>32%</strong> from humans on these tasks.</p>
-            <p>Your goal is to beat existing video understanding models on the BlackSwan MCQ tasks for "Detective" and "Reporter" variants of the benchmark. You can submit your results to the leaderboard (to be announced soon) and get ranked based on your performance. The best performing team will win prizes and be showcase their method at the workshop. Details about submission to the leaderboard and qualification criteria will be announced soon.</p>
+            <p>Your goal is to beat existing video understanding models on the BlackSwan MCQ tasks for the <strong>Detective</strong> and <strong>Reporter</strong> variants of the benchmark. Submissions are evaluated on <strong>MCQ tasks only</strong>. Email your predictions to the organizers at <a href="mailto:cogvl2026@googlegroups.com">cogvl2026@googlegroups.com</a> to receive your scores. The best performing teams will be invited to present their methods at the workshop. See the <a href="{{ '/blackswansubmissions/' | relative_url }}">Submission Details</a> page for full instructions.</p>
         </div>
     </div>
 </section>
@@ -100,8 +100,8 @@ permalink: /blackswanchallenge/
                 <a href="https://huggingface.co/collections/UBC-ViL/black-swan-abductive-and-defeasible-reasoning" target="_blank" rel="noopener noreferrer" class="btn">
                     <i class="fas fa-download"></i> Download Dataset
                 </a>
-                <a href="https://eval.ai/web/challenges/challenge-page/2484/leaderboard" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
-                    <i class="fas fa-trophy"></i> View Leaderboard
+                <a href="{{ '/blackswansubmissions/' | relative_url }}" class="btn btn-secondary">
+                    <i class="fas fa-file-alt"></i> Submission Details
                 </a>
             </div>
         </div>
@@ -112,11 +112,11 @@ permalink: /blackswanchallenge/
     <div class="container">
         <div class="section-content">
             <h2>Evaluation</h2>
-            <p>Submissions to the BlackSwan Challenge will be evaluated on a Huggingface leaderboard using accuracy as the evaluation metric for MCQ tasks. BlackSwanSuite is divided into a public validation set and a private test set, which prevents overfitting. Participants will have access to videos and questions from the public validation set and the private test set (use the link above to access it on Huggingface). Only the validation set will have its ground-truth answers available, whereas the test set answers are private.</p>
-            
-            <p>Videos will be provided with the Creative Commons Attribution Non Commercial Share Alike 4.0 license. Challenge results will use test set scores, which will only be computed using the leaderboard. Participants must submit a JSON file containing their model's predictions for their test set. The leaderboard will enable comparison with human baselines and previous state-of-the-art VLMs.</p>
-            
-            <p>More information is coming soon on instructions to upload your results.</p>
+            <p>The BlackSwan Challenge evaluates submissions on the <strong>MCQ task only</strong>, using <strong>accuracy</strong> as the metric. The dataset is split into a public validation set (with ground-truth labels) and a private test set (labels hidden). Participants develop their models on the validation set and submit final predictions for the test set.</p>
+
+            <p>We report overall accuracy as well as <strong>Detective</strong> and <strong>Reporter</strong> sub-scores to distinguish abductive from defeasible reasoning performance. Videos are provided under the Creative Commons Attribution Non Commercial Share Alike 4.0 license.</p>
+
+            <p>Submissions are made by <strong>emailing a JSON predictions file</strong> to <a href="mailto:cogvl2026@googlegroups.com">cogvl2026@googlegroups.com</a>. The organizers will evaluate your file against the hidden test labels and reply with your scores. See the <a href="{{ '/blackswansubmissions/' | relative_url }}">Submission Details</a> page for the exact JSON format and email instructions.</p>
         </div>
     </div>
 </section>
