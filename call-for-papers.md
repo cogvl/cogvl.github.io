@@ -113,8 +113,32 @@ description: Submit your work to COGVL: Cognitive Foundations for Multimodal Mod
             </div>
             
             <h2>Review Process</h2>
-            <p>All accepted papers will be presented in a poster session to foster discussion and facilitate the exchange of ideas across disciplines. Selected papers will be presented as spotlight talks during the workshop.</p>
-            
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: var(--spacing-md); margin: var(--spacing-md) 0 var(--spacing-lg);">
+
+                <div style="background: var(--bg-light); border-radius: var(--border-radius); padding: var(--spacing-md); border-top: 4px solid var(--accent-color); display: flex; flex-direction: column; gap: var(--spacing-xs);">
+                    <div style="display: flex; align-items: center; gap: var(--spacing-sm); margin-bottom: var(--spacing-xs);">
+                        <span style="width: 48px; height: 48px; background: var(--accent-color); border-radius: 50%; display: flex; align-items: center; justify-content: center; flex-shrink: 0;">
+                            <i class="fas fa-chalkboard-teacher" style="color: white; font-size: 1.25rem;"></i>
+                        </span>
+                        <h3 style="margin: 0; font-size: 1.375rem;">Poster Presentations</h3>
+                    </div>
+                    <p style="margin: 0; color: var(--text-dark);">All accepted papers are invited to present at the <strong>poster session</strong>, fostering in-depth discussion and cross-disciplinary exchange with attendees.</p>
+                </div>
+
+                <div style="background: linear-gradient(135deg, var(--primary-color) 0%, var(--turquoise) 100%); border-radius: var(--border-radius); padding: var(--spacing-md); display: flex; flex-direction: column; gap: var(--spacing-xs); position: relative; overflow: hidden;">
+                    <div style="position: absolute; top: -20px; right: -20px; width: 100px; height: 100px; background: rgba(255,255,255,0.05); border-radius: 50%;"></div>
+                    <div style="display: flex; align-items: center; gap: var(--spacing-sm); margin-bottom: var(--spacing-xs);">
+                        <span style="width: 48px; height: 48px; background: rgba(255,255,255,0.2); border-radius: 50%; display: flex; align-items: center; justify-content: center; flex-shrink: 0;">
+                            <i class="fas fa-trophy" style="color: #FFD700; font-size: 1.25rem;"></i>
+                        </span>
+                        <h3 style="margin: 0; font-size: 1.375rem; color: white;">Best Paper Award</h3>
+                    </div>
+                    <p style="margin: 0; color: rgba(255,255,255,0.92);">A selection of outstanding submissions will be honored with the <strong style="color: #FFD700;">Best Paper Award</strong> and invited to give a <strong style="color: white;">talk</strong> at the workshop. Submit your best work!</p>
+                </div>
+
+            </div>
+
+
             <h2>Formatting Requirements</h2>
             <p>Papers should follow the CVPR 2026 formatting guidelines. Page limits vary by track (see Submission Tracks above). All submissions must be in PDF format.</p>
             
