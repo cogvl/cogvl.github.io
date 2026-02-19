@@ -23,6 +23,33 @@ description: COGVL: Cognitive Foundations for Multimodal Models - CVPR 2026 Work
     </div>
 </div>
 
+<section class="section" style="background-color: var(--bg-light); padding: var(--spacing-lg) 0;">
+    <div class="container">
+        <div style="display: flex; align-items: center; gap: var(--spacing-lg); max-width: 960px; margin: 0 auto; flex-wrap: wrap;">
+
+            <div style="flex: 0 0 auto; width: 280px; max-width: 100%;">
+                <img src="{{ '/static/images/CVPR_Denver_2026.jpg' | relative_url }}"
+                     alt="CVPR 2026 Denver"
+                     style="width: 100%; border-radius: var(--border-radius); box-shadow: 0 4px 16px rgba(0,33,69,0.12);">
+            </div>
+
+            <div style="flex: 1; min-width: 260px;">
+                <h2 style="margin-top: 0; font-size: 1.75rem; color: var(--primary-color); margin-bottom: var(--spacing-sm);"><strong>CogVL Workshop @ CVPR 2026</strong></h2>
+                <p style="font-size: 1.1rem; color: var(--text-dark); line-height: 1.7; margin-bottom: var(--spacing-md);">Brings together topics in <u>vision</u>, <u>language</u>, and <u>cognitive science</u> to move beyond surface-level intelligence toward models that <em>reason, generalize, and decide reliably</em> in the real world.</p>
+                <div style="display: flex; align-items: center; gap: var(--spacing-sm); flex-wrap: wrap;">
+                    <span style="display: inline-flex; align-items: center; gap: 0.4rem; background: #CD591A; color: white; padding: 0.4rem 1rem; border-radius: 2rem; font-size: 0.95rem; font-weight: 500;">
+                        📝 Paper Submission: <strong>March 1, 2026</strong>
+                    </span>
+                    <span style="display: inline-flex; align-items: center; background: #008E1B; color: white; padding: 0.4rem 1rem; border-radius: 2rem; font-size: 0.95rem; font-weight: 500;">
+                        Archival &amp; Non-Archival Tracks
+                    </span>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
 <section class="section">
     <div class="container">
         <div class="section-content">
