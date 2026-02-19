@@ -35,7 +35,7 @@ permalink: /blackswanchallenge/
             <h3>Challenge Timeline</h3>
             <ul class="timeline">
                 <li class="timeline-item">
-                    <span class="timeline-date">January 2026</span> - Challenge will be announced soon. Please stay tuned.
+                    <span class="timeline-date">February 2026</span> — <strong>The BlackSwan Challenge is now open!</strong> See the <a href="{{ '/blackswansubmissions/' | relative_url }}">submission instructions page</a> for details on how to participate.
                 </li>
                 <li class="timeline-item">
                     <span class="timeline-date">April 15, 2026</span> - Challenge end date

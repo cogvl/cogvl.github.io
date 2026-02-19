@@ -39,6 +39,9 @@ description: COGVL: Cognitive Foundations for Multimodal Models - CVPR 2026 Work
                         <strong>Submission site is now open!</strong> Submit your papers via <a href="https://openreview.net/group?id=thecvf.com/CVPR/2026/Workshop/CogVL" target="_blank" rel="noopener noreferrer">OpenReview</a>. Deadline: March 1, 2026.
                     </li>
                     <li class="timeline-item">
+                        <strong>The BlackSwan Challenge has launched!</strong> See the <a href="{{ '/blackswansubmissions/' | relative_url }}">submission instructions page</a> for details on how to participate.
+                    </li>
+                    <li class="timeline-item">
                         Follow us on X! <a href="{{ site.workshop.twitter }}" target="_blank" rel="noopener noreferrer">CogVL Workshop on X</a>
                     </li>
                 </ul>
