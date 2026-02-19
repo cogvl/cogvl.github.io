@@ -15,12 +15,6 @@ permalink: /blackswansubmissions/
 <section class="section">
     <div class="container">
         <div class="section-content">
-            <p style="font-size: 0.9rem; color: var(--text-light);">
-                <strong>Black Swan: Abductive and Defeasible Video Reasoning in Unpredictable Events</strong><br>
-                Aditya Chinchure<sup>1,2*</sup>, Sahithya Ravi<sup>1,2*</sup>, Raymond Ng<sup>1</sup>, Vered Shwartz<sup>1,2</sup>, Boyang Li<sup>3</sup>, Leonid Sigal<sup>1,2</sup><br>
-                <sup>1</sup>University of British Columbia, <sup>2</sup>Vector Institute for AI, <sup>3</sup>Nanyang Technological University
-            </p>
-
             <h2>About the Dataset</h2>
             <p><strong>BlackSwan</strong> is a benchmark for evaluating VLMs' ability to reason about unexpected events through abductive and defeasible tasks. Our tasks artificially limit the amount of visual information provided to models while questioning them about hidden unexpected events, or provide new visual information that could change an existing hypothesis.</p>
 
@@ -81,7 +75,7 @@ permalink: /blackswansubmissions/
             <h3>MCQ Prediction File Format</h3>
             <p>Attach a <strong>JSON file</strong> to your email where each key is a question ID (string) and each value is the index of the selected MCQ option (0-indexed integer).</p>
             <p>Example:</p>
-            <div style="background: var(--bg-light); border: 1px solid var(--border-color); padding: var(--spacing-sm); border-radius: var(--border-radius); font-family: monospace; overflow-x: auto;">
+            <div style="background: var(--bg-light); border: 1px solid var(--border-color); padding: var(--spacing-sm); border-radius: var(--border-radius); font-family: monospace; overflow-x: auto; margin-bottom: var(--spacing-xl);">
                 {<br>
                 &nbsp;&nbsp;"0": 0,<br>
                 &nbsp;&nbsp;"1": 0,<br>
