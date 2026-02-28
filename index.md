@@ -36,7 +36,7 @@ description: COGVL: Cognitive Foundations for Multimodal Models - CVPR 2026 Work
             <div style="flex: 1; min-width: 260px;">
                  <p style="font-size: 1.1rem; color: var(--text-dark); line-height: 1.7; margin-bottom: var(--spacing-md);"><strong>CogVL Workshop @ CVPR 2026</strong> brings together topics in <u>vision</u>, <u>language</u>, and <u>cognitive science</u> to move beyond surface-level intelligence toward models that <em>reason, generalize, and decide reliably</em> in the real world.</p>
                 <p style="font-size: 1rem; margin-bottom: 0;">
-                    📝 <strong>Paper Submission:</strong> <strong style="color: #CD591A;">March 1, 2026</strong>
+                    📝 <strong>Paper Submission:</strong> <strong style="color: #CD591A;"><s>March 1, 2026</s> March 6, 2026 (AoE)</strong>
                     &nbsp;|&nbsp;
                     <strong style="color: #008E1B;">Archival &amp; Non-Archival Tracks</strong>
                 </p>
@@ -59,7 +59,10 @@ description: COGVL: Cognitive Foundations for Multimodal Models - CVPR 2026 Work
             <div class="highlight-box">
                 <ul class="timeline">
                     <li class="timeline-item">
-                        <strong>Submission site is now open!</strong> Submit your papers via <a href="https://openreview.net/group?id=thecvf.com/CVPR/2026/Workshop/CogVL" target="_blank" rel="noopener noreferrer">OpenReview</a>. Deadline: March 1, 2026.
+                        🚨 <strong>Deadline Extended!</strong> The paper submission deadline has been extended to <strong style="color: #CD591A;">March 6, 2026 (AoE)</strong>.
+                    </li>
+                    <li class="timeline-item">
+                        <strong>Submission site is now open!</strong> Submit your papers via <a href="https://openreview.net/group?id=thecvf.com/CVPR/2026/Workshop/CogVL" target="_blank" rel="noopener noreferrer">OpenReview</a>. Deadline: <s>March 1, 2026</s> March 6, 2026 (AoE).
                     </li>
                     <li class="timeline-item">
                         <strong>The BlackSwan Challenge has launched!</strong> See the <a href="{{ '/blackswansubmissions/' | relative_url }}">submission instructions page</a> for details on how to participate.
@@ -143,7 +146,7 @@ description: COGVL: Cognitive Foundations for Multimodal Models - CVPR 2026 Work
                 <h3>Important Dates</h3>
                 <ul class="timeline">
                     <li class="timeline-item">
-                        <span class="timeline-date">March 1, 2026</span> - Workshop Paper Submission Deadline
+                        <span class="timeline-date"><s>March 1, 2026</s> March 6, 2026 (AoE)</span> - Workshop Paper Submission Deadline
                     </li>
                     <li class="timeline-item">
                         <span class="timeline-date">March 25, 2026</span> - Notification to Authors

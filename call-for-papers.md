@@ -101,7 +101,7 @@ description: Submit your work to COGVL: Cognitive Foundations for Multimodal Mod
             <div class="highlight-box">
                 <ul class="timeline">
                     <li class="timeline-item">
-                        <span class="timeline-date">March 1, 2026</span> - Workshop Paper Submission Deadline
+                        <span class="timeline-date"><s>March 1, 2026</s> March 6, 2026 (AoE)</span> - Workshop Paper Submission Deadline
                     </li>
                     <li class="timeline-item">
                         <span class="timeline-date">March 25, 2026</span> - Notification to Authors
