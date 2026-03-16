@@ -20,6 +20,8 @@ permalink: /blackswanleaderboard/
 
             <div class="leaderboard-legend">
                 <span class="baseline-badge">B</span> Baseline
+                <span style="margin-left: 1.5rem;"></span>
+                <span class="participant-badge">P</span> Participant
             </div>
 
             <div class="leaderboard-wrapper">
@@ -69,29 +71,36 @@ permalink: /blackswanleaderboard/
                             <td>52.07</td>
                             <td>72.62</td>
                         </tr>
-                        <tr>
+                        <tr class="participant-row">
                             <td>6</td>
+                            <td>ASU_Computer_Vision (v1) <span class="participant-badge">P</span></td>
+                            <td>59.64</td>
+                            <td>52.15</td>
+                            <td>71.72</td>
+                        </tr>
+                        <tr>
+                            <td>7</td>
                             <td>UBC-ViL (Baseline-VideoLlama2-7B) <span class="baseline-badge">B</span></td>
                             <td>53.15</td>
                             <td>53.27</td>
                             <td>52.96</td>
                         </tr>
                         <tr>
-                            <td>7</td>
+                            <td>8</td>
                             <td>UBC-ViL (Baseline-VILA-7B) <span class="baseline-badge">B</span></td>
                             <td>50.49</td>
                             <td>49.44</td>
                             <td>52.19</td>
                         </tr>
                         <tr>
-                            <td>8</td>
+                            <td>9</td>
                             <td>longAI</td>
                             <td>39.27</td>
                             <td>37.44</td>
                             <td>45.14</td>
                         </tr>
                         <tr>
-                            <td>9</td>
+                            <td>10</td>
                             <td>UBC-ViL (Baseline-VideoChat2) <span class="baseline-badge">B</span></td>
                             <td>36.66</td>
                             <td>28.55</td>

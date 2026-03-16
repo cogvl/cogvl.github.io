@@ -942,6 +942,29 @@ a:hover {
     margin-left: 0.35rem;
 }
 
+.participant-badge {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 22px;
+    height: 22px;
+    background-color: var(--accent-color);
+    color: white;
+    border-radius: 4px;
+    font-size: 0.75rem;
+    font-weight: 700;
+    font-family: 'Figtree', sans-serif;
+    flex-shrink: 0;
+    vertical-align: middle;
+    margin-left: 0.35rem;
+}
+
+.leaderboard-table tbody tr.participant-row,
+.leaderboard-table tbody tr.participant-row:nth-child(even) {
+    background-color: var(--bg-light);
+    box-shadow: inset 3px 0 0 var(--accent-color);
+}
+
 @media (max-width: 768px) {
 
     .leaderboard-table th,
