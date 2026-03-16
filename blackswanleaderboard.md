@@ -29,7 +29,7 @@ permalink: /blackswanleaderboard/
                     <thead>
                         <tr>
                             <th>Rank</th>
-                            <th>Participant Team</th>
+                            <th>Team</th>
                             <th>Accuracy</th>
                             <th>Detective_Accuracy</th>
                             <th>Reporter_Accuracy</th>
