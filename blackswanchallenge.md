@@ -94,6 +94,9 @@ permalink: /blackswanchallenge/
         <div class="section-content">
             <h2 class="text-center">Get Started</h2>
             <div class="challenge-links">
+                <a href="{{ '/blackswanleaderboard/' | relative_url }}" class="btn">
+                    <i class="fas fa-trophy"></i> View Leaderboard
+                </a>
                 <a href="https://blackswan.cs.ubc.ca" target="_blank" rel="noopener noreferrer" class="btn">
                     <i class="fas fa-globe"></i> Visit BlackSwan Website
                 </a>
