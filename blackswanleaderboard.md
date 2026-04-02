@@ -38,7 +38,7 @@ permalink: /blackswanleaderboard/
                     <tbody>
                         <tr class="participant-row">
                             <td>1</td>
-                            <td>Boat (Jiangnan University) <span class="participant-badge">P</span></td>
+                            <td>Boat (v1) (Jiangnan University) <span class="participant-badge">P</span></td>
                             <td>72.88</td>
                             <td>67.78</td>
                             <td>81.11</td>
@@ -66,7 +66,7 @@ permalink: /blackswanleaderboard/
                         </tr>
                         <tr class="participant-row">
                             <td>5</td>
-                            <td>ASU_Computer_Vision (v1) <span class="participant-badge">P</span></td>
+                            <td>ASU_Computer_Vision (v2) <span class="participant-badge">P</span></td>
                             <td>62.06</td>
                             <td>56.22</td>
                             <td>71.47</td>
