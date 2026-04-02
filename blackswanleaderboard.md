@@ -64,26 +64,26 @@ permalink: /blackswanleaderboard/
                             <td>57.09</td>
                             <td>70.60</td>
                         </tr>
-                        <tr>
+                        <tr class="participant-row">
                             <td>5</td>
+                            <td>ASU_Computer_Vision (v1) <span class="participant-badge">P</span></td>
+                            <td>62.06</td>
+                            <td>56.22</td>
+                            <td>71.47</td>
+                        </tr>
+                        <tr>
+                            <td>6</td>
                             <td>UBC-ViL (Baseline-LlavaVideo) <span class="baseline-badge">B</span></td>
                             <td>60.63</td>
                             <td>54.55</td>
                             <td>70.44</td>
                         </tr>
                         <tr>
-                            <td>6</td>
+                            <td>7</td>
                             <td>casia-base</td>
                             <td>59.94</td>
                             <td>52.07</td>
                             <td>72.62</td>
-                        </tr>
-                        <tr class="participant-row">
-                            <td>7</td>
-                            <td>ASU_Computer_Vision (v1) <span class="participant-badge">P</span></td>
-                            <td>59.64</td>
-                            <td>52.15</td>
-                            <td>71.72</td>
                         </tr>
                         <tr>
                             <td>8</td>
