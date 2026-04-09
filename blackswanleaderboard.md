@@ -38,7 +38,7 @@ permalink: /blackswanleaderboard/
                     <tbody>
                         <tr class="participant-row">
                             <td>1</td>
-                            <td>cola_lover (v1) (Southeast University, Opus AI Research) <span class="participant-badge">P</span></td>
+                            <td>cola_lover (v1) (Anonymous Affiliation) <span class="participant-badge">P</span></td>
                             <td>75.94</td>
                             <td>72.33</td>
                             <td>81.75</td>
