@@ -38,7 +38,7 @@ permalink: /blackswanchallenge/
                     <span class="timeline-date">February 2026</span> — <strong>The BlackSwan Challenge is now open!</strong> See the <a href="{{ '/blackswansubmissions/' | relative_url }}">submission instructions page</a> for details on how to participate.
                 </li>
                 <li class="timeline-item">
-                    <span class="timeline-date">April 15, 2026</span> - Challenge end date
+                    <span class="timeline-date"><s>April 15, 2026</s> &rarr; May 1, 2026 (AoE)</span> - Challenge end date
                 </li>
             </ul>
         </div>

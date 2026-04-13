@@ -10,11 +10,11 @@ description: COGVL: Cognitive Foundations for Multimodal Models - CVPR 2026 Work
         <div class="hero-meta">
             <div class="hero-meta-item">
                 <i class="fas fa-calendar"></i>
-                <span>Date: June 3-7, day & time TBD</span>
+                <span>Date: June 3, 2026 &mdash; 1pm&ndash;6pm</span>
             </div>
             <div class="hero-meta-item">
                 <i class="fas fa-map-marker-alt"></i>
-                <span>Location: Denver, Colorado @ CVPR 2026</span>
+                <span>Location: Denver, Colorado @ CVPR 2026 &mdash; Rooms 610/612</span>
             </div>
         </div>
         <div class="mobile-logo">
@@ -58,6 +58,9 @@ description: COGVL: Cognitive Foundations for Multimodal Models - CVPR 2026 Work
             <h2 class="section-title">Announcements</h2>
             <div class="highlight-box">
                 <ul class="timeline">
+                    <li class="timeline-item">
+                        🚨 <strong>BlackSwan Challenge Deadline Extended!</strong> The <a href="{{ '/blackswanchallenge/' | relative_url }}">BlackSwan Challenge</a> deadline has been extended to <strong style="color: #CD591A;">May 1, 2026 (AoE)</strong> <s style="color: var(--text-light);">(was April 15)</s>. See the <a href="{{ '/blackswansubmissions/' | relative_url }}">submission details</a> for more information.
+                    </li>
                     <li class="timeline-item">
                         🚨 <strong>Deadline Extended!</strong> The paper submission deadline has been extended to <strong style="color: #CD591A;">March 6, 2026 (AoE)</strong>.
                     </li>

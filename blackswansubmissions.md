@@ -69,7 +69,12 @@ permalink: /blackswansubmissions/
                 <div style="background: var(--bg-color); border: 1px solid var(--border-color); border-radius: var(--border-radius); padding: var(--spacing-sm); font-family: monospace; margin: var(--spacing-sm) 0;">
                     BlackSwan Challenge Submission — [Team Name]
                 </div>
-                <p style="margin-bottom: 0;">Please include in the email body: your team name, affiliation, a brief description of your approach, and attach the JSON prediction file described below. The organizers will evaluate your submission and reply with your overall accuracy, Detective score, and Reporter score.</p>
+                <p>Please include in the email body: your team name, affiliation, a brief description of your approach, and attach the JSON prediction file described below. The organizers will evaluate your submission and reply with your overall accuracy, Detective score, and Reporter score.</p>
+                <ul style="margin-left: 1.5rem; margin-top: var(--spacing-sm); margin-bottom: 0;">
+                    <li><strong>Submission limit:</strong> Each team may submit up to <strong>3 times</strong> in total.</li>
+                    <li><strong>Response time:</strong> Organizers will reply with your results within <strong>1 business day</strong>. Please leave enough time before the deadline to receive your results.</li>
+                    <li><strong>Deadline:</strong> <s>April 15, 2026</s> &rarr; <strong>May 1, 2026 (AoE)</strong>.</li>
+                </ul>
             </div>
 
             <h3>MCQ Prediction File Format</h3>
