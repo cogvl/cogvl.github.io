@@ -38,83 +38,90 @@ permalink: /blackswanleaderboard/
                     <tbody>
                         <tr class="participant-row">
                             <td>1</td>
+                            <td>Hunter (v1) (Anonymous Affiliation) <span class="participant-badge">P</span></td>
+                            <td>76.28</td>
+                            <td>72.57</td>
+                            <td>82.26</td>
+                        </tr>
+                        <tr class="participant-row">
+                            <td>2</td>
                             <td>cola_lover (v1) (Anonymous Affiliation) <span class="participant-badge">P</span></td>
                             <td>75.94</td>
                             <td>72.33</td>
                             <td>81.75</td>
                         </tr>
                         <tr class="participant-row">
-                            <td>2</td>
+                            <td>3</td>
                             <td>Boat (v1) (Jiangnan University) <span class="participant-badge">P</span></td>
                             <td>72.88</td>
                             <td>67.78</td>
                             <td>81.11</td>
                         </tr>
                         <tr>
-                            <td>3</td>
+                            <td>4</td>
                             <td>UBC-ViL (Baseline-GPT4o) <span class="baseline-badge">B</span></td>
                             <td>69.06</td>
                             <td>63.18</td>
                             <td>78.53</td>
                         </tr>
                         <tr>
-                            <td>4</td>
+                            <td>5</td>
                             <td>IMG_AI</td>
                             <td>64.17</td>
                             <td>56.86</td>
                             <td>75.96</td>
                         </tr>
                         <tr>
-                            <td>5</td>
+                            <td>6</td>
                             <td>UBC-ViL (Baseline-Gemini) <span class="baseline-badge">B</span></td>
                             <td>62.20</td>
                             <td>57.09</td>
                             <td>70.60</td>
                         </tr>
                         <tr class="participant-row">
-                            <td>6</td>
+                            <td>7</td>
                             <td>ASU_Computer_Vision (v2) <span class="participant-badge">P</span></td>
                             <td>62.06</td>
                             <td>56.22</td>
                             <td>71.47</td>
                         </tr>
                         <tr>
-                            <td>7</td>
+                            <td>8</td>
                             <td>UBC-ViL (Baseline-LlavaVideo) <span class="baseline-badge">B</span></td>
                             <td>60.63</td>
                             <td>54.55</td>
                             <td>70.44</td>
                         </tr>
                         <tr>
-                            <td>8</td>
+                            <td>9</td>
                             <td>casia-base</td>
                             <td>59.94</td>
                             <td>52.07</td>
                             <td>72.62</td>
                         </tr>
                         <tr>
-                            <td>9</td>
+                            <td>10</td>
                             <td>UBC-ViL (Baseline-VideoLlama2-7B) <span class="baseline-badge">B</span></td>
                             <td>53.15</td>
                             <td>53.27</td>
                             <td>52.96</td>
                         </tr>
                         <tr>
-                            <td>10</td>
+                            <td>11</td>
                             <td>UBC-ViL (Baseline-VILA-7B) <span class="baseline-badge">B</span></td>
                             <td>50.49</td>
                             <td>49.44</td>
                             <td>52.19</td>
                         </tr>
                         <tr>
-                            <td>11</td>
+                            <td>12</td>
                             <td>longAI</td>
                             <td>39.27</td>
                             <td>37.44</td>
                             <td>45.14</td>
                         </tr>
                         <tr>
-                            <td>12</td>
+                            <td>13</td>
                             <td>UBC-ViL (Baseline-VideoChat2) <span class="baseline-badge">B</span></td>
                             <td>36.66</td>
                             <td>28.55</td>
