@@ -87,41 +87,48 @@ permalink: /blackswanleaderboard/
                         </tr>
                         <tr>
                             <td>8</td>
+                            <td>chenpuka (v1) (Xidian University) <span class="participant-badge">P</span></td>
+                            <td>61.02</td>
+                            <td>55.66</td>
+                            <td>69.67</td>
+                        </tr>
+                        <tr>
+                            <td>9</td>
                             <td>UBC-ViL (Baseline-LlavaVideo) <span class="baseline-badge">B</span></td>
                             <td>60.63</td>
                             <td>54.55</td>
                             <td>70.44</td>
                         </tr>
                         <tr>
-                            <td>9</td>
+                            <td>10</td>
                             <td>casia-base</td>
                             <td>59.94</td>
                             <td>52.07</td>
                             <td>72.62</td>
                         </tr>
                         <tr>
-                            <td>10</td>
+                            <td>11</td>
                             <td>UBC-ViL (Baseline-VideoLlama2-7B) <span class="baseline-badge">B</span></td>
                             <td>53.15</td>
                             <td>53.27</td>
                             <td>52.96</td>
                         </tr>
                         <tr>
-                            <td>11</td>
+                            <td>12</td>
                             <td>UBC-ViL (Baseline-VILA-7B) <span class="baseline-badge">B</span></td>
                             <td>50.49</td>
                             <td>49.44</td>
                             <td>52.19</td>
                         </tr>
                         <tr>
-                            <td>12</td>
+                            <td>13</td>
                             <td>longAI</td>
                             <td>39.27</td>
                             <td>37.44</td>
                             <td>45.14</td>
                         </tr>
                         <tr>
-                            <td>13</td>
+                            <td>14</td>
                             <td>UBC-ViL (Baseline-VideoChat2) <span class="baseline-badge">B</span></td>
                             <td>36.66</td>
                             <td>28.55</td>
