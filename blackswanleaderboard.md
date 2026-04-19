@@ -52,10 +52,10 @@ permalink: /blackswanleaderboard/
                         </tr>
                         <tr class="participant-row">
                             <td>3</td>
-                            <td>Boat (v1) (Jiangnan University) <span class="participant-badge">P</span></td>
-                            <td>72.88</td>
-                            <td>67.78</td>
-                            <td>81.11</td>
+                            <td>Boat (v3) (Jiangnan University) <span class="participant-badge">P</span></td>
+                            <td>73.38</td>
+                            <td>66.35</td>
+                            <td>84.70</td>
                         </tr>
                         <tr>
                             <td>4</td>
