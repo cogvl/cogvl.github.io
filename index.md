@@ -79,6 +79,73 @@ description: COGVL: Cognitive Foundations for Multimodal Models - CVPR 2026 Work
     </div>
 </section>
 
+<section id="schedule" class="section">
+    <div class="container">
+        <h2 class="section-title">Schedule</h2>
+        <p style="text-align: center; font-style: italic; color: var(--text-light); margin-top: -1rem; margin-bottom: var(--spacing-lg);">Note: The schedule is tentative and subject to change.</p>
+        <div class="section-content">
+            <div class="schedule-container">
+                <table class="schedule-table">
+                    <thead>
+                        <tr>
+                            <th>Time Slot</th>
+                            <th>Event</th>
+                            <th>Speaker</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="schedule-time">1:00 pm &ndash; 1:10 pm</td>
+                            <td class="schedule-event">Welcome and Opening Remarks</td>
+                            <td class="schedule-speaker"></td>
+                        </tr>
+                        <tr>
+                            <td class="schedule-time">1:10 pm &ndash; 1:50 pm</td>
+                            <td class="schedule-event">35 min Keynote + 5 min Q&A</td>
+                            <td class="schedule-speaker"><strong>Katerina Fragkiadaki</strong></td>
+                        </tr>
+                        <tr>
+                            <td class="schedule-time">1:50 pm &ndash; 2:30 pm</td>
+                            <td class="schedule-event">35 min Keynote + 5 min Q&A</td>
+                            <td class="schedule-speaker"><strong>Judith E. Fan</strong></td>
+                        </tr>
+                        <tr>
+                            <td class="schedule-time">2:30 pm &ndash; 3:10 pm</td>
+                            <td class="schedule-event">Oral Presentations</td>
+                            <td class="schedule-speaker">4 x 10 min</td>
+                        </tr>
+                        <tr>
+                            <td class="schedule-time">3:10 pm &ndash; 3:30 pm</td>
+                            <td class="schedule-event">Break</td>
+                            <td class="schedule-speaker"></td>
+                        </tr>
+                        <tr>
+                            <td class="schedule-time">3:30 pm &ndash; 4:10 pm</td>
+                            <td class="schedule-event">35 min Keynote + 5 min Q&A</td>
+                            <td class="schedule-speaker"><strong>Trevor Darrell</strong></td>
+                        </tr>
+                        <tr>
+                            <td class="schedule-time">4:10 pm &ndash; 4:50 pm</td>
+                            <td class="schedule-event">35 min Keynote + 5 min Q&A</td>
+                            <td class="schedule-speaker"><strong>Alane Suhr</strong></td>
+                        </tr>
+                        <tr>
+                            <td class="schedule-time">4:50 pm &ndash; 5:00 pm</td>
+                            <td class="schedule-event">Closing Remarks + Awards</td>
+                            <td class="schedule-speaker"></td>
+                        </tr>
+                        <tr>
+                            <td class="schedule-time">5:00 pm &ndash; 6:00 pm</td>
+                            <td class="schedule-event">Poster Session</td>
+                            <td class="schedule-speaker"></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</section>
+
 <section class="section">
     <div class="container">
         <h2 class="section-title">Call for Papers</h2>
