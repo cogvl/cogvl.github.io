@@ -104,9 +104,11 @@ description: COGVL: Cognitive Foundations for Multimodal Models - CVPR 2026 Work
                             <td class="schedule-event">35 min Keynote + 5 min Q&A</td>
                             <td class="schedule-speaker">
                                 <div class="speaker-info">
-                                    <span class="speaker-name">Katerina Fragkiadaki</span>
+                                    <div class="speaker-name-row">
+                                        <span class="speaker-name">Katerina Fragkiadaki</span>
+                                        <a href="https://www.cs.cmu.edu/~katef/" target="_blank" rel="noopener noreferrer" class="speaker-link"><i class="fas fa-external-link-alt"></i></a>
+                                    </div>
                                     <span class="speaker-affiliation">(Carnegie Mellon University)</span>
-                                    <a href="https://www.cs.cmu.edu/~katef/" target="_blank" rel="noopener noreferrer" class="speaker-link"><i class="fas fa-external-link-alt"></i></a>
                                 </div>
                             </td>
                         </tr>
@@ -115,9 +117,11 @@ description: COGVL: Cognitive Foundations for Multimodal Models - CVPR 2026 Work
                             <td class="schedule-event">35 min Keynote + 5 min Q&A</td>
                             <td class="schedule-speaker">
                                 <div class="speaker-info">
-                                    <span class="speaker-name">Judith E. Fan</span>
+                                    <div class="speaker-name-row">
+                                        <span class="speaker-name">Judith E. Fan</span>
+                                        <a href="https://psychology.stanford.edu/people/judith-ellen-fan" target="_blank" rel="noopener noreferrer" class="speaker-link"><i class="fas fa-external-link-alt"></i></a>
+                                    </div>
                                     <span class="speaker-affiliation">(Stanford University)</span>
-                                    <a href="https://psychology.stanford.edu/people/judith-ellen-fan" target="_blank" rel="noopener noreferrer" class="speaker-link"><i class="fas fa-external-link-alt"></i></a>
                                 </div>
                             </td>
                         </tr>
@@ -136,9 +140,11 @@ description: COGVL: Cognitive Foundations for Multimodal Models - CVPR 2026 Work
                             <td class="schedule-event">35 min Keynote + 5 min Q&A</td>
                             <td class="schedule-speaker">
                                 <div class="speaker-info">
-                                    <span class="speaker-name">Trevor Darrell</span>
+                                    <div class="speaker-name-row">
+                                        <span class="speaker-name">Trevor Darrell</span>
+                                        <a href="https://people.eecs.berkeley.edu/~trevor/" target="_blank" rel="noopener noreferrer" class="speaker-link"><i class="fas fa-external-link-alt"></i></a>
+                                    </div>
                                     <span class="speaker-affiliation">(UC Berkeley / BAIR)</span>
-                                    <a href="https://people.eecs.berkeley.edu/~trevor/" target="_blank" rel="noopener noreferrer" class="speaker-link"><i class="fas fa-external-link-alt"></i></a>
                                 </div>
                             </td>
                         </tr>
@@ -147,9 +153,11 @@ description: COGVL: Cognitive Foundations for Multimodal Models - CVPR 2026 Work
                             <td class="schedule-event">35 min Keynote + 5 min Q&A</td>
                             <td class="schedule-speaker">
                                 <div class="speaker-info">
-                                    <span class="speaker-name">Alane Suhr</span>
+                                    <div class="speaker-name-row">
+                                        <span class="speaker-name">Alane Suhr</span>
+                                        <a href="https://www.alanesuhr.com" target="_blank" rel="noopener noreferrer" class="speaker-link"><i class="fas fa-external-link-alt"></i></a>
+                                    </div>
                                     <span class="speaker-affiliation">(UC Berkeley / BAIR)</span>
-                                    <a href="https://www.alanesuhr.com" target="_blank" rel="noopener noreferrer" class="speaker-link"><i class="fas fa-external-link-alt"></i></a>
                                 </div>
                             </td>
                         </tr>

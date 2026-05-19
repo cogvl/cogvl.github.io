@@ -1049,9 +1049,14 @@ a:hover {
 
 .speaker-info {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.15rem;
+}
+
+.speaker-name-row {
+    display: flex;
     align-items: center;
-    gap: 0.35rem;
 }
 
 .speaker-info .speaker-name {
@@ -1061,16 +1066,16 @@ a:hover {
 
 .speaker-info .speaker-affiliation {
     color: var(--text-light);
-    font-size: 0.9rem;
+    font-size: 0.85rem;
     font-style: italic;
 }
 
 .speaker-info .speaker-link {
     color: var(--accent-color);
-    font-size: 0.85rem;
+    font-size: 0.65rem;
     display: inline-flex;
     align-items: center;
-    margin-left: 0.15rem;
+    margin-left: 0.4rem;
 }
 
 .speaker-info .speaker-link:hover {
