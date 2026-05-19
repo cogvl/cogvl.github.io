@@ -174,10 +174,10 @@ description: COGVL: Cognitive Foundations for Multimodal Models - CVPR 2026 Work
                 <a href="https://people.eecs.berkeley.edu/~trevor/" target="_blank" rel="noopener noreferrer" class="speaker-website">Website</a>
             </div>
             <div class="speaker-card">
-                <img src="{{ '/static/images/speakers/carl-vondrick.jpg' | relative_url }}" alt="Carl Vondrick" class="speaker-photo">
-                <h3 class="speaker-name">Carl Vondrick</h3>
-                <p class="speaker-affiliation">Columbia University</p>
-                <a href="https://www.cs.columbia.edu/~vondrick/" target="_blank" rel="noopener noreferrer" class="speaker-website">Website</a>
+                <img src="{{ '/static/images/speakers/katerina-fragkiadaki.png' | relative_url }}" alt="Katerina Fragkiadaki" class="speaker-photo">
+                <h3 class="speaker-name">Katerina Fragkiadaki</h3>
+                <p class="speaker-affiliation">Carnegie Mellon University</p>
+                <a href="https://www.cs.cmu.edu/~katef/" target="_blank" rel="noopener noreferrer" class="speaker-website">Website</a>
             </div>
             <div class="speaker-card">
                 <img src="{{ '/static/images/speakers/judith-fan.jpg.webp' | relative_url }}" alt="Judy Fan" class="speaker-photo">
