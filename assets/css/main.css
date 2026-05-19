@@ -1046,3 +1046,33 @@ a:hover {
         font-size: 0.9rem;
     }
 }
+
+.speaker-info {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.35rem;
+}
+
+.speaker-info .speaker-name {
+    font-weight: 600;
+    color: var(--primary-color);
+}
+
+.speaker-info .speaker-affiliation {
+    color: var(--text-light);
+    font-size: 0.9rem;
+    font-style: italic;
+}
+
+.speaker-info .speaker-link {
+    color: var(--accent-color);
+    font-size: 0.85rem;
+    display: inline-flex;
+    align-items: center;
+    margin-left: 0.15rem;
+}
+
+.speaker-info .speaker-link:hover {
+    color: var(--accent-hover);
+}
