@@ -114,6 +114,11 @@ description: COGVL: Cognitive Foundations for Multimodal Models - CVPR 2026 Work
                         </tr>
                         <tr>
                             <td class="schedule-time">1:50 pm &ndash; 2:30 pm</td>
+                            <td class="schedule-event">Oral Presentations</td>
+                            <td class="schedule-speaker">4 x 10 min</td>
+                        </tr>
+                        <tr>
+                            <td class="schedule-time">2:30 pm &ndash; 3:10 pm</td>
                             <td class="schedule-event">35 min Keynote + 5 min Q&A</td>
                             <td class="schedule-speaker">
                                 <div class="speaker-info">
@@ -124,11 +129,6 @@ description: COGVL: Cognitive Foundations for Multimodal Models - CVPR 2026 Work
                                     <span class="speaker-affiliation">(Stanford University)</span>
                                 </div>
                             </td>
-                        </tr>
-                        <tr>
-                            <td class="schedule-time">2:30 pm &ndash; 3:10 pm</td>
-                            <td class="schedule-event">Oral Presentations</td>
-                            <td class="schedule-speaker">4 x 10 min</td>
                         </tr>
                         <tr>
                             <td class="schedule-time">3:10 pm &ndash; 3:30 pm</td>
