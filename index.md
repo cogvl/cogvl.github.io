@@ -34,47 +34,9 @@ description: COGVL: Cognitive Foundations for Multimodal Models - CVPR 2026 Work
             </div>
 
             <div style="flex: 1; min-width: 260px;">
-                 <p style="font-size: 1.1rem; color: var(--text-dark); line-height: 1.7; margin-bottom: var(--spacing-md);"><strong>CogVL Workshop @ CVPR 2026</strong> brings together topics in <u>vision</u>, <u>language</u>, and <u>cognitive science</u> to move beyond surface-level intelligence toward models that <em>reason, generalize, and decide reliably</em> in the real world.</p>
-                <p style="font-size: 1rem; margin-bottom: 0;">
-                    📝 <strong>Paper Submission:</strong> <strong style="color: #CD591A;"><s>March 1, 2026</s> March 6, 2026 (AoE)</strong>
-                    &nbsp;|&nbsp;
-                    <strong style="color: #008E1B;">Archival &amp; Non-Archival Tracks</strong>
-                </p>
+                 <p style="font-size: 1.1rem; color: var(--text-dark); line-height: 1.7; margin-bottom: 0;"><strong>CogVL Workshop @ CVPR 2026</strong> brings together topics in <u>vision</u>, <u>language</u>, and <u>cognitive science</u> to move beyond surface-level intelligence toward models that <em>reason, generalize, and decide reliably</em> in the real world.</p>
             </div>
 
-        </div>
-    </div>
-</section>
-
-<section class="section">
-    <div class="container">
-        <div class="section-content">
-            <div class="abstract">
-                <p>Despite impressive perceptual and reasoning capabilities, vision-language models (VLMs) face challenges in systematic generalization, sample efficiency, commonsense reasoning, and trustworthy decision-making. The CogVL workshop provides a forum for researchers across computer vision, natural language processing, and cognitive science to explore how cognitively-inspired frameworks can address these limitations.</p>
-                
-                <p>Our workshop is motivated by the emerging interest in whether cognitive principles such as counterfactual thinking, theory of mind, compositional reasoning, and causal inference can offer a blueprint for more adaptable, robust, and context-aware multimodal intelligence. Our half-day workshop features invited keynote talks, a panel discussion with leading experts, and selected papers. CogVL will also host the BlackSwan Challenge, which evaluates abductive reasoning (inferring hidden causes) and defeasible reasoning (adapting to new visual evidence) in unexpected video events.</p>
-            </div>
-            
-            <h2 class="section-title">Announcements</h2>
-            <div class="highlight-box">
-                <ul class="timeline">
-                    <li class="timeline-item">
-                        🚨 <strong>BlackSwan Challenge Deadline Extended!</strong> The <a href="{{ '/blackswanchallenge/' | relative_url }}">BlackSwan Challenge</a> deadline has been extended to <strong style="color: #CD591A;">May 1, 2026 (AoE)</strong> <s style="color: var(--text-light);">(was April 15)</s>. See the <a href="{{ '/blackswansubmissions/' | relative_url }}">submission details</a> for more information.
-                    </li>
-                    <li class="timeline-item">
-                        🚨 <strong>Deadline Extended!</strong> The paper submission deadline has been extended to <strong style="color: #CD591A;">March 6, 2026 (AoE)</strong>.
-                    </li>
-                    <li class="timeline-item">
-                        <strong>Submission site is now open!</strong> Submit your papers via <a href="https://openreview.net/group?id=thecvf.com/CVPR/2026/Workshop/CogVL" target="_blank" rel="noopener noreferrer">OpenReview</a>. Deadline: <s>March 1, 2026</s> March 6, 2026 (AoE).
-                    </li>
-                    <li class="timeline-item">
-                        <strong>The BlackSwan Challenge has launched!</strong> See the <a href="{{ '/blackswansubmissions/' | relative_url }}">submission instructions page</a> for details on how to participate.
-                    </li>
-                    <li class="timeline-item">
-                        Follow us on X! <a href="{{ site.workshop.twitter }}" target="_blank" rel="noopener noreferrer">CogVL Workshop on X</a>
-                    </li>
-                </ul>
-            </div>
         </div>
     </div>
 </section>
@@ -205,6 +167,39 @@ description: COGVL: Cognitive Foundations for Multimodal Models - CVPR 2026 Work
                 <h3 class="speaker-name">Alane Suhr</h3>
                 <p class="speaker-affiliation">Berkeley EECS / BAIR</p>
                 <a href="https://www.alanesuhr.com" target="_blank" rel="noopener noreferrer" class="speaker-website">Website</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section">
+    <div class="container">
+        <div class="section-content">
+            <div class="abstract">
+                <p>Despite impressive perceptual and reasoning capabilities, vision-language models (VLMs) face challenges in systematic generalization, sample efficiency, commonsense reasoning, and trustworthy decision-making. The CogVL workshop provides a forum for researchers across computer vision, natural language processing, and cognitive science to explore how cognitively-inspired frameworks can address these limitations.</p>
+                
+                <p>Our workshop is motivated by the emerging interest in whether cognitive principles such as counterfactual thinking, theory of mind, compositional reasoning, and causal inference can offer a blueprint for more adaptable, robust, and context-aware multimodal intelligence. Our half-day workshop features invited keynote talks, a panel discussion with leading experts, and selected papers. CogVL will also host the BlackSwan Challenge, which evaluates abductive reasoning (inferring hidden causes) and defeasible reasoning (adapting to new visual evidence) in unexpected video events.</p>
+            </div>
+            
+            <h2 class="section-title">Announcements</h2>
+            <div class="highlight-box">
+                <ul class="timeline">
+                    <li class="timeline-item">
+                        🚨 <strong>BlackSwan Challenge Deadline Extended!</strong> The <a href="{{ '/blackswanchallenge/' | relative_url }}">BlackSwan Challenge</a> deadline has been extended to <strong style="color: #CD591A;">May 1, 2026 (AoE)</strong> <s style="color: var(--text-light);">(was April 15)</s>. See the <a href="{{ '/blackswansubmissions/' | relative_url }}">submission details</a> for more information.
+                    </li>
+                    <li class="timeline-item">
+                        🚨 <strong>Deadline Extended!</strong> The paper submission deadline has been extended to <strong style="color: #CD591A;">March 6, 2026 (AoE)</strong>.
+                    </li>
+                    <li class="timeline-item">
+                        <strong>Submission site is now open!</strong> Submit your papers via <a href="https://openreview.net/group?id=thecvf.com/CVPR/2026/Workshop/CogVL" target="_blank" rel="noopener noreferrer">OpenReview</a>. Deadline: <s>March 1, 2026</s> March 6, 2026 (AoE).
+                    </li>
+                    <li class="timeline-item">
+                        <strong>The BlackSwan Challenge has launched!</strong> See the <a href="{{ '/blackswansubmissions/' | relative_url }}">submission instructions page</a> for details on how to participate.
+                    </li>
+                    <li class="timeline-item">
+                        Follow us on X! <a href="{{ site.workshop.twitter }}" target="_blank" rel="noopener noreferrer">CogVL Workshop on X</a>
+                    </li>
+                </ul>
             </div>
         </div>
     </div>
